@@ -10,9 +10,9 @@ The idea was to turn the app’s own “screensaver” on as soon as the iPad wa
 
 <figure>
     <video width="640" height="360" controls="">
-        <source src="/media/device-orientation-assumptions.mp4" type="video/mp4">
-        <source src="/media/device-orientation-assumptions.ogg" type="video/ogg">
-        <source src="/media/device-orientation-assumptions.webm" type="video/webm">
+        <source src="{{ site.uploadsurl }}2014/device-orientation-assumptions.mp4" type="video/mp4">
+        <source src="{{ site.uploadsurl }}2014/device-orientation-assumptions.ogg" type="video/ogg">
+        <source src="{{ site.uploadsurl }}2014/device-orientation-assumptions.webm" type="video/webm">
     </video>
     <figcaption>
         <p>The angle of the books differ slightly. Using the Device Orientation API we can tell which book the iPhone is lying on. The colors are pre-defined.</p>
