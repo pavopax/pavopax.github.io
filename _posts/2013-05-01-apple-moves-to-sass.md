@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Apple Store moves to Sass
 ---
 <p class="intro">Yesterday, Apple updated their online Store with a brand new look and feel. I did some poking around in the source code and found some interesting things:</p>

@@ -1,2 +1,69 @@
 @import "../_sass/normalize.scss";
 @import "../bower_components/bourbon/dist/_bourbon";
+
+/*
+    Legend 
+    ===========================
+    1. Main elements
+    2. Layout components
+    3. Typography
+    4. Header
+    5. Footer
+    6. Specials
+*/
+
+/* Main elmenets */
+html {
+    background: #f7f7f7;
+}
+body {
+    font: 20px/1.5 "droid serif"; 
+    color: #444;
+}
+
+/* Layout components */
+.inner {
+    margin: 0 auto;
+    max-width: 40em;
+}
+
+/* Typography */
+h1,h2,h3,h4,h5,ul,ol {
+    margin: 1rem 0;
+    font-weight: inherit;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.meta {
+    color: #767676;
+}
+
+/* Header */
+.site-header {
+    padding: 1px 0;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    @include clearfix;
+    h1 {
+        float: left;
+        font-size: 1em;
+    }
+    nav {
+        float: right;
+        font-size: 1em;
+        ul {
+            padding: 0;
+            list-style-type: none;
+        }
+    }
+}
+
+/* Footer */
+
+/* Specials */
+.post-list {
+    padding: 0;
+    list-style-type: none;
+}

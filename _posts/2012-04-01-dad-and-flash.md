@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 'D&AD: 85% of the Winning Web Sites Use Flash'
 ---
 
