@@ -7,6 +7,7 @@
 /*
     Legend 
     ===========================
+    0. Resets
     1. Main elements
     2. Layout components
     3. Typography
@@ -15,16 +16,25 @@
     6. Specials
 */
 
+/* Resets */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 /* Main elmenets */
 html {
     background: #f7f7f7;
 }
 body {
     font: 20px/1.6 "droid serif"; 
-    color: #444;
+    color: #222;
 }
 
 /* Layout components */
+.outer {
+    padding: 1rem 0;
+}
 .inner {
     margin: 0 auto;
     max-width: 36em;
@@ -65,14 +75,27 @@ a {
 }
 .meta {
     font-family: sans-serif;
+    font-size: .8em;
+    line-height: 1.75;
     color: #767676;
+}
+.in {
+    &:first-line {
+        font-weight: bold;
+    }
+}
+pre {
+    padding: 1rem;
+    background: #ededed;
+    border-radius: 2px;
+    overflow-x: auto;
+    border: 1px solid #ddd;
 }
 
 /* Header */
 .site-header {
     padding: 1px 0;
     background: #fff;
-    border-bottom: 1px solid #eee;
     @include clearfix;
     h1 {
         float: left;
@@ -94,4 +117,17 @@ a {
 .post-list {
     padding: 0;
     list-style-type: none;
+    span + h2 {
+        margin-top: 0;
+    }
+    li {
+        &:after {
+            content: "";
+            display: block;
+            margin: 1rem 0;
+            width: 25%;
+            height: 3px;
+            background: #aaa;
+        }
+    }
 }
