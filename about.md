@@ -3,9 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
+I'm a designer and developer from Stockholm, Sweden. You can find me at various places around the web.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+* [Twitter](http://twitter.com/martenbjork/)
+* [Dribble](https://dribbble.com/martenbjork)
+* [GitHub](https://github.com/martenbjork)
