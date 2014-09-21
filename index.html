@@ -7,7 +7,7 @@ layout: default
         <ul class="post-list">
             {% for post in site.posts %}
             <li>
-                <span class="meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <!--<span class="meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
                 <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
                 {% if post.custom_excerpt %}
                     <p class="excerpt">{{ post.custom_excerpt | strip_html }} <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
