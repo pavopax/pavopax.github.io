@@ -20,14 +20,14 @@ html {
     background: #f7f7f7;
 }
 body {
-    font: 20px/1.5 "droid serif"; 
+    font: 20px/1.6 "droid serif"; 
     color: #444;
 }
 
 /* Layout components */
 .inner {
     margin: 0 auto;
-    max-width: 40em;
+    max-width: 36em;
 }
 
 /* Typography */
@@ -35,11 +35,36 @@ h1,h2,h3,h4,h5,ul,ol {
     margin: 1rem 0;
     font-weight: inherit;
 }
+h1, .h1 {
+    font-size: 3em;
+    font-family: sans-serif;
+    line-height: 1.2;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: -1px;
+}
+h2, .h2 {
+    font-size: 1.6em;
+    font-family: sans-serif;
+    line-height: 1.4;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: none;
+}
+h3, .h3 {
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: none;
+}
 a {
     text-decoration: none;
     color: inherit;
 }
 .meta {
+    font-family: sans-serif;
     color: #767676;
 }
 
