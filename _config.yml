@@ -3,7 +3,7 @@ title: martenbjork.com
 email: marten@upperdog.se
 description: > # this means to ignore newlines until "baseurl:"
    I'm a web designer and developer. In 2011, I co-founded Upperdog. 
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /
 url: "http://martenbjork.com" # the base hostname & protocol for your site
 twitter_username: martenbjork
 github_username: martenbjork
