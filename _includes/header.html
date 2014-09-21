@@ -14,7 +14,15 @@
     <header class="site-header" role="banner">
         <div class="inner">
             <h1><a href="/">Mårten Björk</a></h1>
-            <nav role="navigation">
+            <nav class="site-nav" role="navigation">
+
+                <svg class="inline-icon nav-icon" width="36px" height="28px" viewBox="0 0 36 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g fill="#000">
+                        <rect x="0" y="0" width="36" height="6" rx="1"></rect>
+                        <rect x="0" y="11" width="36" height="6" rx="1"></rect>
+                        <rect x="0" y="22" width="36" height="6" rx="1"></rect>
+                    </g>
+                </svg>
                 <ul>
                     {% for page in site.pages | sort: order %}
                         {% if page.title %}

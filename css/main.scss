@@ -56,12 +56,14 @@ h1,h2,h3,h4,h5,ul,ol {
 }
 h1,h2,h3 {
     a {
+        color: inherit;
         &:after {
             content: " \21AC";
             color: #ddd; 
+            @include transition( color .15s linear );
         }
         &:hover {
-           &:after {
+            &:after {
                 color: inherit;
             }
         }
@@ -99,7 +101,7 @@ h3, .h3 {
 }
 a {
     text-decoration: none;
-    color: inherit;
+    color: #1964c1;
 }
 .meta {
     font-family: sans-serif;
@@ -138,21 +140,48 @@ table {
         color: #777;
     }
     h1 {
-        float: left;
         font-size: 1em;
         line-height: inherit;
         letter-spacing: 0;
+        float: left;
     }
-    nav {
-        float: right;
-        font-size: 1em;
-        font-family: sans-serif;
-        font-weight: 300;
+}
+.site-nav {
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: 300;
+    ul {
+        display: none;
+        padding: 0;
+        list-style-type: none;
+        clear: both;
+    }
+    .nav-icon {
+        margin: 1rem 0;
+        float: right; 
+        opacity: .3;
+        &:hover {
+            opacity: .5;
+        }
+    }
+    &--open {
         ul {
+            display: block;
+        }
+        .nav-icon {
+            opacity: .5;
+        }
+    }
+    @media screen and (min-width: 800px) {
+        float: right;
+        .nav-icon {
+            display: none;
+        }
+        ul {
+            display: block;
             float: left;
             margin-left: .75em;
-            padding: 0;
-            list-style-type: none;
+            clear: none;
         }
         li {
             margin-left: .5em;
@@ -203,5 +232,9 @@ table {
     float: right;
     width: 200px;
     margin: .75em 0 1rem 1rem;
-    float: right;
+    @media screen and (max-width: 600px) {
+        float: none;
+        margin: 1rem 0;
+        width: auto;
+    }
 }
