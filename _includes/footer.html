@@ -9,7 +9,14 @@
     <script src="{{ site.url }}/js/balance-text-master/jquery.balancetext.min.js"></script>
     <script>
         function balance() {
-            $('h1,h2,h3').balanceText();
+            $('h1,h2,h3').each( function() {
+                var $link = $(this).find('a');
+                if( $link.size() ) {
+                    $link.balanceText();
+                } else {
+                    $(this).balanceText();
+                }
+            });
         }
         $(window).on('load', function() {
             balance();
