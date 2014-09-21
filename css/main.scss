@@ -37,7 +37,12 @@ body {
 }
 .inner {
     margin: 0 auto;
+    width: 90%;
     max-width: 36em;
+}
+img {
+    display: block;
+    max-width: 100%;
 }
 
 /* Typography */
@@ -79,6 +84,9 @@ a {
     line-height: 1.75;
     color: #767676;
 }
+.intro {
+    font-size: 1.15em;
+}
 .in {
     &:first-line {
         font-weight: bold;
@@ -90,6 +98,12 @@ pre {
     border-radius: 2px;
     overflow-x: auto;
     border: 1px solid #ddd;
+}
+table {
+    th {
+        text-align: left;
+        @extend .h3;
+    }
 }
 
 /* Header */
