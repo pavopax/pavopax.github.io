@@ -32,6 +32,10 @@ body {
 }
 
 /* Layout components */
+.main {
+    min-height: 800px;
+    min-height: 90vh;
+}
 .outer {
     padding: 1rem 0;
 }
@@ -112,6 +116,9 @@ pre {
 }
 
 /* Footer */
+.site-footer {
+    border-top: 1px solid #ddd;
+}
 
 /* Specials */
 .post-list {

@@ -1,15 +1,18 @@
-<footer class="site-footer" role="contentinfo">
-    <div class="inner">
-        <p class="text">{{ site.description }}</p>
+    </main>
+    <footer class="site-footer outer" role="contentinfo">
+        <div class="inner">
+            <p class="text">{{ site.description }}</p>
 
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 
-        {% if site.github_username %}
-            <a href="https://github.com/{{ site.github_username }}"><span class="username">{{ site.github_username }}</span></a>
-        {% endif %}
+            {% if site.github_username %}
+                <a href="https://github.com/{{ site.github_username }}"><span class="username">{{ site.github_username }}</span></a>
+            {% endif %}
 
-        {% if site.twitter_username %}
-            <a href="https://twitter.com/"><span class="username">{{ site.twitter_username }}</span></a>
-        {% endif %}
-    </div>
-</footer>
+            {% if site.twitter_username %}
+                <a href="https://twitter.com/"><span class="username">{{ site.twitter_username }}</span></a>
+            {% endif %}
+        </div>
+    </footer>
+</body>
+</html>
