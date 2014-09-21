@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: post
 title: Web Project Management
 category: Writing
 period: Summer, 2014

@@ -1,5 +1,5 @@
 ---
-layout: portfolio
+layout: post
 title: Casio Watch Illustrations
 category: Illustration
 period: Fall, 2014
