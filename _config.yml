@@ -11,3 +11,5 @@ github_username: martenbjork
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:title/
+sass:
+  sass_dir: _scss
