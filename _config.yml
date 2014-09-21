@@ -12,3 +12,5 @@ github_username: martenbjork
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:title/
+gems:
+    - jekyll-sitemap
