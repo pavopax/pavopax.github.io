@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using the Device Orientation API to Guess Proximity
+excerpt_image: 2014/device-orientation-proximity.jpg
 ---
 <p class="intro">The <a href="http://dev.w3.org/geo/api/spec-source-orientation.html">Device Orientation <abbr title="Application Programming Interface">API</abbr></a> of <abbr title="Hypertext Markup Language">HTML</abbr>5 tells us the orientation of the user’s device at any given moment. However, in some controlled environments it can also be used to guess a device’s position in the room.</p>
 

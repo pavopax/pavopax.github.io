@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fibonacci in the New Prometheus Trailer
+excerpt_image: 2014/prometheus-fibonacci-640x359.jpg
 ---
 <p class="intro">Whilst watching <a href="http://www.youtube.com/watch?v=DOOJl5lWNfM">the new Prometheus trailer</a> this morning, I discovered some familiar design patterns like the Fibonacci sequence and grid layouts. Someone on the production team clearly did his homework.</p>
 

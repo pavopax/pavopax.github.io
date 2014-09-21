@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'D&AD: 85% of the Winning Web Sites Use Flash'
+excerpt_image: 2014/spent.jpg
 ---
 
 <p class="intro">The winners of <a href="http://www.dandad.org/awards/professional/2012/categories/digd/digital-design">The D&amp;AD Professional Awards</a> have been announced. Below is a summary of the winners of the “Digital Design” category. 13 web sites are on the list, 11 of them require Flash.</p>
