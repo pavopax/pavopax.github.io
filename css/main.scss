@@ -1,5 +1,5 @@
-//@import "../_sass/normalize.scss";
-//@import "../_sass/bourbon-master/dist/_bourbon";
+@import "../_sass/normalize.scss";
+@import "../_sass/bourbon-master/dist/_bourbon";
 
 /*
     Legend 
@@ -45,7 +45,7 @@ a {
     padding: 1px 0;
     background: #fff;
     border-bottom: 1px solid #eee;
-//    @include clearfix;
+    @include clearfix;
     h1 {
         float: left;
         font-size: 1em;
