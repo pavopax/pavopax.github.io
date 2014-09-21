@@ -9,6 +9,12 @@ url: "http://martenbjork.com" # the base hostname & protocol for your site
 twitter_username: martenbjork
 github_username: martenbjork
 
+# Collections
+collections:
+    trips:
+        output: true
+        permalink: /trips/:path/
+
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:title/

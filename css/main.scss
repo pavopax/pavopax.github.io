@@ -140,3 +140,13 @@ pre {
         }
     }
 }
+.event-list {
+    padding-left: 0;
+    li {
+        list-style-position: inside;
+    }
+    &__date {
+        float: right;
+        @extend .meta;
+    }
+}
