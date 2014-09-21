@@ -5,5 +5,21 @@
                 {{ site.description }} I'm on <a href="http://twitter.com/martenbjork/">Twitter</a>, <a href="https://dribbble.com/martenbjork">Dribble</a>, <a href="https://github.com/martenbjork">Github</a> and <a href="/about/">more</a>. 
             </p>
     </footer>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="{{ site.url }}/js/balance-text-master/jquery.balancetext.min.js"></script>
+    <script>
+        function balance() {
+            $('h1,h2,h3').balanceText();
+        }
+        $(window).on('load', function() {
+            balance();
+        });
+        var resizeTimer;
+        $(window).on('resize', function() {
+            resizeTimer = setTimeout( function() {
+                balance();
+            }, 100); 
+        });
+    </script>
 </body>
 </html>

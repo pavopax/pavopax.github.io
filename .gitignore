@@ -1,5 +1,5 @@
-.swp
-.swo
+*.swp
+*.swo
 .sass-cache/
 _site/
 bower_components/
