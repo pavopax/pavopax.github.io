@@ -115,10 +115,9 @@ It’s 2012. Mobile is about to overtake desktop. Every new Mac, iPhone and iPad
         <td>Not found</td>
     </tr>
 </tbody></table>
-
-![The Honda Dots Now doesn't work without Adobe Flash Player](/media/dots-now.jpg)
-![3 Live Shop doesn't work without Adobe Flash Player](/media/flash.jpg)
-![Intel's campaign doesn't work without Adobe Flash Player](/media/intel-museum-of-me.jpg)
-![The A New Warrior campaign doesn't work without Adobe Flash Player](/media/new-warrior.jpg)
-![Spent requires Flash](/media/spent.jpg)
-![Wall of Fame requires Flash](/media/wall-of-fame.jpg)
+![The Honda Dots Now doesn't work without Adobe Flash Player]({{ site.uploadsurl }}2014/dots-now.jpg)
+![3 Live Shop doesn't work without Adobe Flash Player]({{ site.uploadsurl }}2014/flash.jpg)
+![Intel's campaign doesn't work without Adobe Flash Player]({{ site.uploadsurl }}2014/intel-museum-of-me.jpg)
+![The A New Warrior campaign doesn't work without Adobe Flash Player]({{ site.uploadsurl }}2014/new-warrior.jpg)
+![Spent requires Flash]({{ site.uploadsurl }}2014/spent.jpg)
+![Wall of Fame requires Flash]({{ site.uploadsurl }}2014/wall-of-fame.jpg)
