@@ -24,16 +24,19 @@
 
 /* Main elmenets */
 html {
-    background: #f7f7f7;
+    background: #ddd;
 }
 body {
+    margin: auto;
+    max-width: 56em;
     font: 20px/1.6 "droid serif"; 
     color: #222;
+    background: #f7f7f7;
 }
 
 /* Layout components */
 .outer {
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 .inner {
     margin: 0 auto;
@@ -41,8 +44,12 @@ body {
     max-width: 36em;
 }
 img {
+    border-radius: 1px;
+}
+img, video {
     display: block;
     max-width: 100%;
+    height: auto;
 }
 .inline-icon {
     display: inline;
@@ -112,9 +119,22 @@ a {
 .intro {
     font-size: 1.15em;
 }
+.excerpt {
+//    overflow: hidden;
+//    display: -webkit-box;
+//    -webkit-line-clamp: 4;
+//    -webkit-box-orient: vertical; 
+}
 .in {
     &:first-line {
         font-weight: bold;
+    }
+}
+.read-more {
+    font-family: sans-serif;
+    font-weight: bold;
+    &:after {
+        content: " \21AC";
     }
 }
 pre {
@@ -210,7 +230,7 @@ table {
         &:after {
             content: "";
             display: block;
-            margin: 1rem 0;
+            margin: 2rem 0;
             width: 15%;
             height: 2px;
             background: #ddd;
@@ -230,8 +250,8 @@ table {
 .post-thumb {
     display: block;
     float: right;
-    width: 200px;
-    margin: .75em 0 1rem 1rem;
+    width: 260px;
+    margin: .75em 0 1.5rem 1rem;
     @media screen and (max-width: 600px) {
         float: none;
         margin: 1rem 0;
