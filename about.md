@@ -8,3 +8,4 @@ I'm a designer and developer from Stockholm, Sweden. You can find me at various 
 * [Twitter](http://twitter.com/martenbjork/)
 * [Dribble](https://dribbble.com/martenbjork)
 * [GitHub](https://github.com/martenbjork)
+* [LinkedIn](https://www.linkedin.com/in/martenbjork)

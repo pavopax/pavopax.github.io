@@ -2,8 +2,8 @@
 layout: post
 title: Casio Watch Illustrations
 category: Illustration
-period: Fall, 2014
+period: Spring, 2014
 ---
-Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis.
+I don't know much about illustration other than that I enjoy it immensely. This spring, I spent a few afternoons imitating one of my Casio watches. I did my best to recreate the surfaces, materials, how the light casts shadows behind the buttons and so on. I used Sketch for 98% of the work (including glares and reflection) and only did some light post-processing in Photoshop.
 
 ![Casio watch illustration]({{ site.uploadsurl }}2014/casio-watch.jpg)
