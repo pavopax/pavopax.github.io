@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Apple Store moves to Sass
+custom_excerpt: "Yesterday, Apple updated their online Store with a brand new look and feel. I did some poking around in the source code and found some interesting things. Most notably: the Apple Store now uses Sass to pre-process their CSS files."
 ---
 <p class="intro">Yesterday, Apple updated their online Store with a brand new look and feel. I did some poking around in the source code and found some interesting things:</p>
 

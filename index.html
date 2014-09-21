@@ -9,7 +9,11 @@ layout: default
             <li>
                 <span class="meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                 <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-                <p class="excerpt">{{ post.excerpt | strip_html }} <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+                {% if post.custom_excerpt %}
+                    <p class="excerpt">{{ post.custom_excerpt | strip_html }} <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+                {% else %}
+                    <p class="excerpt">{{ post.excerpt | strip_html }} <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+                {% endif %}
                 {% if post.excerpt_image %}
                     <img class="-post-thumb" src="{{ site.uploadsurl }}{{ post.excerpt_image }}">
                 {% endif %}
