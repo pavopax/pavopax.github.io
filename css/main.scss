@@ -28,20 +28,25 @@ html {
 }
 body {
     margin: auto;
-    max-width: 56em;
-    font: 20px/1.6 "droid serif"; 
+    font: 23px/1.5 "PT serif"; 
     color: #222;
     background: #f7f7f7;
+    @media screen and (max-width: 600px) {
+        font-size: 21px;
+    }
 }
 
 /* Layout components */
 .outer {
     padding: 1.5rem 0;
+    @media screen and (max-width: 600px) {
+        padding: .75rem 0;
+    }
 }
 .inner {
     margin: 0 auto;
     width: 90%;
-    max-width: 36em;
+    max-width: 32em;
 }
 img {
     border-radius: 1px;
@@ -79,7 +84,7 @@ h1,h2,h3 {
 h1, .h1 {
     font-size: 3em;
     font-family: sans-serif;
-    line-height: 1.2;
+    line-height: 1.15;
     font-weight: bold;
     text-transform: none;
     letter-spacing: -1px;
@@ -88,9 +93,9 @@ h1, .h1 {
     }
 }
 h2, .h2 {
-    font-size: 2em;
+    font-size: 1.75em;
     font-family: sans-serif;
-    line-height: 1.3;
+    line-height: 1.25;
     font-weight: bold;
     text-transform: none;
     letter-spacing: -1px;
@@ -133,6 +138,7 @@ a {
 .read-more {
     font-family: sans-serif;
     font-weight: bold;
+    font-size: .95em;
     &:after {
         content: " \21AC";
     }
@@ -164,12 +170,13 @@ table {
         line-height: inherit;
         letter-spacing: 0;
         float: left;
+        &:after {
+            display: none;
+        }
     }
 }
 .site-nav {
-    font-size: 1em;
-    font-family: sans-serif;
-    font-weight: 300;
+    font-size: .9em;
     ul {
         display: none;
         padding: 0;
