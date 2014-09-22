@@ -2,6 +2,8 @@
 layout: post
 title: Stop using the trackpad
 excerpt_image: 2014/trackpad.jpg
+excerpt_image_width: 720
+excerpt_image_height: 347
 # Trackpad photo from: https://dribbble.com/shots/985593-MacBook-Pro-15-Scalable-Mock-ups (tweet sent)
 ---
 <p class="intro">The trackpad is not your friend. In fact, in terms of productivity, it is the exact opposite. Every time you move your hands from the keyboard to reach for the trackpad you loose a few seconds, or worse, your concentration.</p>

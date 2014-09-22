@@ -15,7 +15,7 @@ layout: default
                     <p class="excerpt">{{ post.excerpt | strip_html }} <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
                 {% endif %}
                 {% if post.excerpt_image %}
-                    <img class="-post-thumb" src="{{ site.uploadsurl }}{{ post.excerpt_image }}">
+                    <img src="{{ site.uploadsurl }}{{ post.excerpt_image }}"{% if post.excerpt_image_width %} width="{{ post.excerpt_image_width }}{% endif %}"{% if post.excerpt_image_height %} height="{{ post.excerpt_image_height }}{% endif %}">
                 {% endif %}
             </li>
             {% endfor %}
