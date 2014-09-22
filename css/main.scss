@@ -55,6 +55,9 @@ h1,h2,h3,h4,h5,ul,ol {
     margin: 1rem 0;
     font-weight: inherit;
 }
+p {
+    margin: 1.5rem 0;
+}
 h1,h2,h3 {
     a {
         color: inherit;
@@ -95,12 +98,15 @@ h2, .h2 {
     }
 }
 h3, .h3 {
-    font-size: inherit;
+    font-size: 1.1em;
     font-family: inherit;
     line-height: inherit;
     font-weight: bold;
     text-transform: none;
     letter-spacing: none;
+    + p {
+        margin-top: -1rem;
+    }
 }
 a {
     text-decoration: none;
