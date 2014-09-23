@@ -34,7 +34,7 @@ In addition to learning different keyboard shortcuts in OS X, you can configure 
 
 ![The Keyboard section in System Preferences]({{ site.uploadsurl }}2014/trackpad-system-preferences.jpg)
 
-**Update:** [Rikard Ekberg](https://twitter.com/kroofy) recommended [ShortCat](https://shortcatapp.com/) which takes things one step further. Thanks!
+**Update:** In response to this article, [Rikard Ekberg](https://twitter.com/kroofy) recommended [ShortCat](https://shortcatapp.com/) which takes things one step further.
 
 ## Add-ons for the browser
 I use the [type-ahead-find](https://chrome.google.com/webstore/detail/type-ahead-find/cpecbmjeidppdiampimghndkikcmoadk) chrome extension to quickly navigate the web using only the keyboard. If you spot a link on a web site, you simply type the first characters in it — the plugin focuses the link and you can press enter to follow it.
