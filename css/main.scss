@@ -187,6 +187,9 @@ table {
         padding: 0;
         list-style-type: none;
         clear: both;
+        &:nth-of-type(2) { // Twitter for now
+            color: #e75858;
+        }
     }
     .nav-icon {
         margin: 1rem 0;
