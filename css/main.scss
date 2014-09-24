@@ -189,6 +189,9 @@ table {
         clear: both;
         &:nth-of-type(2) { // Twitter for now
             color: #e75858;
+            a {
+                color: inherit;
+            }
         }
     }
     .nav-icon {
