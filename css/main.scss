@@ -8,13 +8,14 @@
     Legend 
     ===========================
     0. Resets
-    1. Main elements
-    2. Layout components
-    3. Typography
-    4. Header
-    5. Footer
-    6. Images, video and icons
-    7. Specials
+    1. Variables
+    2. Main elements
+    3. Layout components
+    4. Typography
+    5. Header
+    6. Footer
+    7. Images, video and icons
+    8. Specials
 */
 
 /* Resets */
@@ -22,6 +23,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* Variables */
+$color-accent: rgb(231, 88, 88);
 
 /* Main elmenets */
 html {
@@ -88,7 +92,7 @@ h1, .h1 {
     font-weight: bold;
     text-transform: none;
     letter-spacing: -1px;
-    color: rgb(231, 88, 88);
+    color: $color-accent;
     @media screen and (max-width: 600px) {
         font-size: 2em;
     }
@@ -100,7 +104,7 @@ h2, .h2 {
     font-weight: bold;
     text-transform: none;
     letter-spacing: -1px;
-    color: rgb(231, 88, 88);
+    color: $color-accent;
     @media screen and (max-width: 600px) {
         font-size: 1.2em;
     }
@@ -303,4 +307,13 @@ figcaption {
         margin: 1rem 0;
         width: auto;
     }
+}
+.twitter-cta {
+    padding: .25em .5em;
+    font-size: .85em;
+    font-weight: bold;
+    font-family: sans-serif;
+    background: $color-accent;
+    color: white;
+    border-radius: 3px;
 }

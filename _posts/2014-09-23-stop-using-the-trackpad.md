@@ -42,4 +42,4 @@ I use the [type-ahead-find](https://chrome.google.com/webstore/detail/type-ahead
 ***
 
 ## Summary
-Becoming less trackpad dependent has transformed the way I work. It allows me to be more effective and makes me more focused. I hope it can do the same for you. If this guide is missing something, or if you would like to continue the conversation, <a href="http://twitter.com/martenbjork/">talk to me on Twitter</a>.
+Becoming less trackpad dependent has transformed the way I work. It allows me to be more effective and makes me more focused. I hope it can do the same for you.

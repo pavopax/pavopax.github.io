@@ -25,5 +25,3 @@ The new store uses standard HTML5 across all pages. Other pages on Apple.com use
 Apple still uses images for headlines, but this time with a twist. They have developed a server-side script that generates different images based on a few parameters like size and quality.
 
 <p class="in">The new store makes use of the Schema.org specification. Products, organizations (“Apple”) and breadcrumbs are among the types found in the source code.</p>
-
-Find anything else? Let me know on Twitter.
