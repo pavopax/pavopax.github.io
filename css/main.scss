@@ -317,3 +317,14 @@ figcaption {
     color: white;
     border-radius: 3px;
 }
+.about-avatar {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    float: right;
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+    @media screen and (max-width: 600px) {
+        width: 100px;
+    }
+}
