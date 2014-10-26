@@ -1,0 +1,462 @@
+---
+# Stupid front matter
+---
+@import "normalize.scss";
+@import "bourbon-master/dist/_bourbon";
+
+/*
+    Legend 
+    ===========================
+*/
+
+/* Resets */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Variables */
+$color-accent: #ef6678;
+$color-accent-text: darken($color-accent, 6);
+$color-complementary: #1e2b3a;
+
+/* Main elmenets */
+html {
+    background: #ddd;
+}
+body {
+    margin: auto;
+    font: 19px/1.5 "PT serif"; 
+    color: #444;
+    background: #f7f7f7;
+    @media screen and (max-width: 600px) {
+        font-size: 18px;
+    }
+}
+
+/* Layout */
+.block {
+    padding: 2em 0;
+    h2:not(.sectionizer),h3,h4 {
+        color: $color-accent-text;
+    }
+    &--dark {
+        padding-top: 6em;
+        background: #1e2b3a;
+        color: #a3bdca;
+    }
+}
+.inner {
+    margin: auto;
+    max-width: 50em;
+    width: 88%;
+    @media screen and (max-width: 1000px) {
+        max-width: 22em;
+    }
+}
+.two-cols {
+    overflow: hidden;
+    &__col {
+        float: left;
+        margin-right: 4%;
+        width: 48%;
+        &:last-of-type {
+            margin-right: 0;
+        }
+        @media screen and (max-width: 1000px) {
+            float: none;
+            margin: 0;
+            width: 100%;
+        }
+    }
+}
+
+.three-cols {
+    overflow: hidden;
+    clear: both;
+    &__col {
+        float: left;
+        margin-right: 2%;
+        width: 32%;
+        &:last-of-type {
+            margin-right: 0;
+        }
+        @media screen and (max-width: 1000px) {
+            position: relative;
+            float: none;
+            margin: 0;
+            width: auto;
+        }
+    }
+}
+
+/* Typography */
+h1, .h1 {
+    float: left;
+    margin: 0 0 1rem;
+    font-size: 5em;
+    line-height: 1;
+    font-weight: normal;
+    letter-spacing: -2px;
+    color: white;
+    @media screen and (max-width: 600px) {
+        font-size: 3em;
+    }
+}
+h2, .h2 {
+    margin: 2rem 0 1rem;
+    font-size: 1.6em;
+    line-height: 1.25;
+    font-weight: normal;
+}
+h3, .h3 {
+    margin: 0 0 1rem;
+    font-size: 1.15em;
+}
+p {
+    margin: 0 0 1rem;
+}
+.author {
+    float: right;
+    svg {
+        vertical-align: middle;
+    }
+}
+.sectionizer {
+    margin: 2rem 0 0;
+    font-family: oswald, sans-serif;
+    font-size: 1em;
+    line-height: 1.1764705;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: darken(#a3bdca, 15);
+    @include linear-gradient(rgba(0,0,0,0) 45%, #ddd 45%, #ddd 55%, rgba(0,0,0,0) 50%);
+    span {
+        padding: 0 .5em 0 0;
+        background: #f7f7f7;
+    }
+}
+ul {
+    padding: 0;
+    li {
+        list-style-type: none;
+    }
+}
+.circle-digit {
+    display: block;
+    margin-bottom: .5rem;
+    font-family: oswald, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+/* Other */
+
+/* Demo animations */
+@include keyframes( move-to-center ) {
+    0% {
+        top: 75%;
+        left: 110%;
+    } 20% {
+        top: 50%;
+        left: 50%;
+    } 100% {
+        top: 50%;
+        left: 50%;
+    }
+}
+@include keyframes( move-to-center-right ) {
+    0% {
+        top: 75%;
+        left: 110%;
+    } 20% {
+        top: 50%;
+        left: 65%;
+    } 100% {
+        top: 50%;
+        left: 65%;
+    }
+}
+@include keyframes( move-along-left ) {
+    0% {
+        top: -5%;
+        left: 15%;
+    } 30% {
+        top: 50%;
+        left: 10%;
+    } 100% {
+        top: 50%;
+        left: 10%;
+    }
+}
+
+@include keyframes( demo-comp-text) {
+    0% {
+        top: 90%;
+    } 10% {
+        top: 90%;
+    } 20% {
+        top: 40%;
+    } 100% {
+        top: 40%;
+    }
+}
+@include keyframes( demo-comp-ph-copy ) {
+    0% {
+        opacity: .2;
+    } 10% {
+        opacity: .2;
+    } 20% {
+        opacity: 1;
+    } 100% {
+        opacity: 1;
+    }
+}
+@include keyframes( demo-style-button ) {
+    0% {
+        background: white;
+    } 10% {
+        background: white;
+    } 20% {
+        background: #eee;
+    } 100% {
+        background: #eee;
+    }
+}
+@include keyframes( demo-style-button ) {
+    0% {
+        background: #ccc;
+    } 10% {
+        background: #ccc;
+    } 20% {
+        background: #fff;
+    } 100% {
+        background: #fff;
+    }
+}
+@include keyframes( move-icons ) {
+    0% {
+        @include transform(translate3d(0,54px,0));
+    } 30% {
+        @include transform(translate3d(0,0,0));
+    } 100% {
+        @include transform(translate3d(0,0,0));
+    }
+}
+@include keyframes( demo-tooltip ) {
+    0% {
+        @include transform( scale(0) );
+        opacity: 0;
+    } 22% {
+        @include transform( scale(0) );
+        opacity: 0;
+    } 28% {
+        @include transform( scale(1) );
+        opacity: 1;
+    } 100% {
+        @include transform( scale(1) );
+        opacity: 1;
+    }
+}
+@include keyframes( demo-pagescroll ) {
+    0% {
+        @include transform( translate3d(0,0px,0) );
+    } 60% {
+        @include transform( translate3d(0,-86px,0) );
+    } 100% {
+        @include transform( translate3d(0,-86px,0) );
+    }
+}
+@include keyframes( demo-expandable ) {
+    0% {
+        height: 80px;
+    } 35% {
+        height: 80px;
+    } 40% {
+        height: 160px;
+    } 100% {
+        height: 160px;
+    }
+}
+
+/* Demos */
+.demo {
+    position: relative; 
+    height: 220px;
+    background: #cbd3d7;
+    border-radius: 2px;
+    overflow: hidden;
+    &__cursor {
+        position: absolute;
+        margin: -8px 0 0 -8px;
+        width: 16px;
+        height: 16px;
+        border-radius: 100%;
+        background-color: rgba(104, 182, 213, 1);
+        z-index: 100;
+    }
+}
+%demo-shadow {
+    box-shadow: none;
+}
+.ph-copy {
+    overflow: hidden;
+    span {
+        display: block;
+        float: left;
+        margin: 0 3px 5px 0;
+        height: 5px;
+        width: 5px;
+        background: rgba(0,0,0,.25);
+    }
+    &:nth-of-type(1) {
+        span {
+            margin-bottom: 8px;
+            background: $color-accent;
+            &:nth-child(1) { width: 10px; }
+            &:nth-child(2) { width: 14px; }
+            &:nth-child(3) { width: 7px; }
+            &:nth-child(4) { width: 8px; }
+            &:nth-child(5) { width: 12px; }
+            &:nth-child(6) { width: 9px; }
+        }
+    }
+    span {
+        &:nth-child(8n) { width: 12px; }
+        &:nth-child(8n-1) { width: 11px; }
+        &:nth-child(8n-2) { width: 8px; }
+        &:nth-child(8n-3) { width: 14px; }
+        &:nth-child(8n-4) { width: 6px; }
+        &:nth-child(8n-5) { width: 10px; }
+        &:nth-child(8n-6) { width: 8px; }
+        &:nth-child(8n-7) { width: 12px; }
+    }
+}
+
+/* Demo: complementary info */
+.demo-comp {
+    .demo {
+        &__cursor {
+            @include animation( move-to-center-right 6s infinite both $ease-out-quad );
+        }
+        &__object {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            width: 50%;
+            height: 80%;
+            background: #fff;
+            border-radius: 1px;
+            overflow: hidden;
+            @extend %demo-shadow;
+            @include box-sizing(border-box);
+            &__text {
+                position: absolute;
+                top: 90%;
+                left: 20px;
+                right: 20px;
+                @include animation( demo-comp-text 6s both infinite $ease-in-out-back );
+                .ph-copy:nth-child(2) {
+                    @include animation( demo-comp-ph-copy 6s both infinite linear );
+                }
+            }
+        }
+    }
+}
+
+/* Demo: change style */
+.demo-style {
+    .demo {
+        &__cursor {
+            @include animation( move-to-center 6s -3s infinite both $ease-out-quad );
+        }
+        &__button {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 50%;
+            height: 0;
+            padding: 35px 0 30px;
+            margin: auto;
+            background: #fff;
+            border-radius: 2px;
+            @extend %demo-shadow;
+            @include animation( demo-style-button 6s -3s infinite both $ease-out-quad );
+        }
+    }
+}
+
+/* Demo: tooltip */
+.demo-tooltip {
+    .demo {
+        &__cursor {
+            @include animation( move-along-left 6s -4s infinite both $ease-out-quad );
+        }
+        &__icons {
+            position: absolute;
+            top: -92px;
+            left: 2px;
+            @include animation( move-icons 6s -4s infinite both $ease-out-quad );
+            &__icon {
+                margin: 0 0 2px;
+                width: 56px;
+                height: 56px;
+                background: white;
+                border-radius: 1px;
+                @extend %demo-shadow;
+            }
+        }
+        &__tooltip {
+            position: absolute;
+            padding: 10px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            left: 75px;
+            height: 5px;
+            background: #fff;
+            border-radius: 3px;
+            @extend %demo-shadow;
+            @include animation( demo-tooltip 6s -4s infinite both $ease-out-back);
+            @include transform-origin( 0 50% );
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: -3px;
+                top: 9px;
+                width: 7px;
+                height: 7px;
+                background: #fff;
+                @include transform( rotate(-45deg) );
+            }
+        }
+    }
+}
+
+/* Demo: page flow */
+.demo-pageflow {
+    .demo {
+        &__cursor {
+            top: 28%;
+            left: 64%;
+        }
+        &__page {
+            margin: 8px auto;
+            max-width: 40%;
+            @include animation( demo-pagescroll 6s infinite both ease-in-out);
+        }
+        &__expandable {
+            margin: 8px 0;
+            height: 80px;
+            background: #aaa;
+            @include animation( demo-expandable 6s infinite both $ease-out-quad);
+        }
+    }
+}
