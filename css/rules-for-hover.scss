@@ -16,19 +16,17 @@
 }
 
 /* Variables */
-$color-accent: #ef6678;
-$color-accent-text: darken($color-accent, 6);
+$color-accent: #e9596f;
 $color-complementary: #1e2b3a;
 
 /* Main elmenets */
 html {
-    background: #ddd;
+    background: #DEE3E8;
 }
 body {
     margin: auto;
-    font: 19px/1.5 "PT serif"; 
+    font: 20px/1.5 "PT serif"; 
     color: #444;
-    background: #f7f7f7;
     @media screen and (max-width: 600px) {
         font-size: 18px;
     }
@@ -37,18 +35,21 @@ body {
 /* Layout */
 .block {
     padding: 2em 0;
-    h2:not(.sectionizer),h3,h4 {
-        color: $color-accent-text;
+    h2:not(.sectionizer) {
+        color: $color-accent;
+    }
+    h3, .sectionizer {
+        color: #1e2b3a;
     }
     &--dark {
-        padding-top: 6em;
+        padding-top: 4em;
         background: #1e2b3a;
         color: #a3bdca;
     }
 }
 .inner {
     margin: auto;
-    max-width: 50em;
+    max-width: 52em;
     width: 88%;
     @media screen and (max-width: 1000px) {
         max-width: 22em;
@@ -58,10 +59,9 @@ body {
     overflow: hidden;
     &__col {
         float: left;
-        margin-right: 4%;
-        width: 48%;
-        &:last-of-type {
-            margin-right: 0;
+        width: 49.5%;
+        &:nth-of-type(1) {
+            margin-right: 1%;
         }
         @media screen and (max-width: 1000px) {
             float: none;
@@ -90,50 +90,70 @@ body {
     }
 }
 
+.demo-list {
+    li {
+        margin-bottom: .5em;
+        padding: 0 1em .5em 1em;
+        background: white; 
+        border-radius: 3px 3px 2px 2px;
+        p {
+            margin-bottom: .5rem;
+        }
+        .demo {
+            margin: 0 -1em 1em;
+        }
+    }
+}
+
 /* Typography */
 h1, .h1 {
     float: left;
     margin: 0 0 1rem;
-    font-size: 5em;
+    font-size: 4em;
     line-height: 1;
     font-weight: normal;
     letter-spacing: -2px;
-    color: white;
+    color: #F9F2F2;
     @media screen and (max-width: 600px) {
         font-size: 3em;
     }
 }
 h2, .h2 {
     margin: 2rem 0 1rem;
-    font-size: 1.6em;
-    line-height: 1.25;
+    font-family: Signika, sans-serif;
+    font-size: 1.75em;
+    line-height: 1.2;
     font-weight: normal;
 }
 h3, .h3 {
-    margin: 0 0 1rem;
+    margin: 0 0 .5em;
     font-size: 1.15em;
 }
 p {
     margin: 0 0 1rem;
 }
 .author {
+    margin-top: 1.5rem;
     float: right;
+    font-size: .85em;
     svg {
         vertical-align: middle;
     }
 }
 .sectionizer {
-    margin: 2rem 0 0;
+    margin: 1rem 0 .25em;
+    &:nth-of-type(2) {
+        margin-top: 3rem;
+    }
     font-family: oswald, sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 1.1764705;
-    letter-spacing: .1em;
+    letter-spacing: .075em;
     text-transform: uppercase;
-    color: darken(#a3bdca, 15);
-    @include linear-gradient(rgba(0,0,0,0) 45%, #ddd 45%, #ddd 55%, rgba(0,0,0,0) 50%);
+    @include linear-gradient(rgba(0,0,0,0) 45%, #cbd3d7 45%, #cbd3d7 55%, rgba(0,0,0,0) 50%);
     span {
         padding: 0 .5em 0 0;
-        background: #f7f7f7;
+        background: #DEE6E8;
     }
 }
 ul {
@@ -142,8 +162,21 @@ ul {
         list-style-type: none;
     }
 }
+.dd {
+    margin-right: .333em;
+    display: inline-block;
+    width: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    background: #42c97a;
+    color: #fff;
+    border-radius: 100px;
+    &--dont {
+        background: $color-accent;
+    }
+}
 .circle-digit {
-    display: block;
+    display: none;
     margin-bottom: .5rem;
     font-family: oswald, sans-serif;
     font-size: 1rem;
@@ -283,9 +316,9 @@ ul {
 /* Demos */
 .demo {
     position: relative; 
-    height: 220px;
+    height: 240px;
     background: #cbd3d7;
-    border-radius: 2px;
+    border-radius: 2px 2px 0 0;
     overflow: hidden;
     &__cursor {
         position: absolute;
@@ -401,7 +434,7 @@ ul {
         &__icons {
             position: absolute;
             top: -92px;
-            left: 2px;
+            left: 0;
             @include animation( move-icons 6s -4s infinite both $ease-out-quad );
             &__icon {
                 margin: 0 0 2px;
