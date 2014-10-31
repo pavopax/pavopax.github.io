@@ -128,6 +128,9 @@ h2, .h2 {
 h3, .h3 {
     margin: 0 0 .5em;
     font-size: 1.15em;
+    line-height: inherit;
+    font-weight: bold;
+    letter-spacing: 0;
 }
 p {
     margin: 0 0 1rem;
@@ -163,16 +166,18 @@ ul {
     }
 }
 .dd {
-    margin-right: .333em;
+    margin-right: .25em;
     display: inline-block;
-    width: 1.5em;
-    line-height: 1.5em;
-    text-align: center;
-    background: #42c97a;
-    color: #fff;
-    border-radius: 100px;
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+    width: 28px;
+    height: 28px;
+    background: url(../images/sprite@2x.png) no-repeat -28px top;
+    background-size: auto 28px;
     &--dont {
-        background: $color-accent;
+        background: url(../images/sprite@2x.png) no-repeat -56px top;
+        background-size: auto 28px;
     }
 }
 .circle-digit {
@@ -257,17 +262,6 @@ ul {
         background: #eee;
     }
 }
-@include keyframes( demo-style-button ) {
-    0% {
-        background: #ccc;
-    } 10% {
-        background: #ccc;
-    } 20% {
-        background: #fff;
-    } 100% {
-        background: #fff;
-    }
-}
 @include keyframes( move-icons ) {
     0% {
         @include transform(translate3d(0,54px,0));
@@ -301,6 +295,28 @@ ul {
         @include transform( translate3d(0,-86px,0) );
     }
 }
+@include keyframes( state-cursor ) {
+    0% {
+        @include transform( translate3d(0,0,0) );
+    } 40% {
+        @include transform( translate3d(-10px,179px,0) );
+    } 50% {
+        @include transform( translate3d(-10px,179px,0) scale(0) );
+    } 100% {
+        @include transform( translate3d(-10px,179px,0) scale(0) );
+    }
+}
+@include keyframes( state-disabled-cursor ) {
+    0% {
+        @include transform( translate3d(0,0,0) scale(0) );
+    } 40% {
+        @include transform( translate3d(-10px,179px,0) scale(0) );
+    } 45% {
+        @include transform( translate3d(-10px,179px,0) scale(1) );
+    } 100% {
+        @include transform( translate3d(-10px,179px,0) scale(1) );
+    }
+}
 @include keyframes( demo-expandable ) {
     0% {
         height: 80px;
@@ -320,6 +336,7 @@ ul {
     background: #cbd3d7;
     border-radius: 2px 2px 0 0;
     overflow: hidden;
+    background: #cbd3d7;
     &__cursor {
         position: absolute;
         margin: -8px 0 0 -8px;
@@ -341,7 +358,7 @@ ul {
         margin: 0 3px 5px 0;
         height: 5px;
         width: 5px;
-        background: rgba(0,0,0,.25);
+        background: #93A5AE;
     }
     &:nth-of-type(1) {
         span {
@@ -371,7 +388,7 @@ ul {
 .demo-comp {
     .demo {
         &__cursor {
-            @include animation( move-to-center-right 6s infinite both $ease-out-quad );
+            @include animation( move-to-center-right 4s infinite both $ease-out-quad );
         }
         &__object {
             position: absolute;
@@ -392,9 +409,9 @@ ul {
                 top: 90%;
                 left: 20px;
                 right: 20px;
-                @include animation( demo-comp-text 6s both infinite $ease-in-out-back );
+                @include animation( demo-comp-text 4s both infinite $ease-in-out-back );
                 .ph-copy:nth-child(2) {
-                    @include animation( demo-comp-ph-copy 6s both infinite linear );
+                    @include animation( demo-comp-ph-copy 4s both infinite linear );
                 }
             }
         }
@@ -405,7 +422,7 @@ ul {
 .demo-style {
     .demo {
         &__cursor {
-            @include animation( move-to-center 6s -3s infinite both $ease-out-quad );
+            @include animation( move-to-center 4s -3s infinite both $ease-out-quad );
         }
         &__button {
             position: absolute;
@@ -420,7 +437,7 @@ ul {
             background: #fff;
             border-radius: 2px;
             @extend %demo-shadow;
-            @include animation( demo-style-button 6s -3s infinite both $ease-out-quad );
+            @include animation( demo-style-button 4s -3s infinite both $ease-out-quad );
         }
     }
 }
@@ -429,13 +446,13 @@ ul {
 .demo-tooltip {
     .demo {
         &__cursor {
-            @include animation( move-along-left 6s -4s infinite both $ease-out-quad );
+            @include animation( move-along-left 4s -4s infinite both $ease-out-quad );
         }
         &__icons {
             position: absolute;
             top: -92px;
             left: 0;
-            @include animation( move-icons 6s -4s infinite both $ease-out-quad );
+            @include animation( move-icons 4s -4s infinite both $ease-out-quad );
             &__icon {
                 margin: 0 0 2px;
                 width: 56px;
@@ -456,7 +473,7 @@ ul {
             background: #fff;
             border-radius: 3px;
             @extend %demo-shadow;
-            @include animation( demo-tooltip 6s -4s infinite both $ease-out-back);
+            @include animation( demo-tooltip 4s -4s infinite both $ease-out-back);
             @include transform-origin( 0 50% );
             &:before {
                 content: "";
@@ -483,13 +500,55 @@ ul {
         &__page {
             margin: 8px auto;
             max-width: 40%;
-            @include animation( demo-pagescroll 6s infinite both ease-in-out);
+            @include animation( demo-pagescroll 4s infinite both ease-in-out);
         }
         &__expandable {
-            margin: 8px 0;
+            margin: 8px 0 12px;
             height: 80px;
-            background: #aaa;
-            @include animation( demo-expandable 6s infinite both $ease-out-quad);
+            background: #93A5AE;
+            @include animation( demo-expandable 4s infinite both $ease-out-quad);
+        }
+    }
+}
+
+/* Demo: disabled */
+.demo-state {
+    .demo {
+        &__cursor {
+            top: -10%;
+            left: 68%;
+            @include animation( state-cursor 4s -5s infinite both $ease-out-quad);
+        }
+        &__disabled-cursor {
+            position: absolute;
+            width: 28px;
+            height: 28px;
+            margin-top: -14px;
+            margin-left: -14px;
+            top: -10%;
+            left: 68%;
+            background: url(../images/sprite@2x.png) no-repeat 0 top;
+            background-size: auto 28px;
+            @include animation( state-disabled-cursor 4s -5s infinite both $ease-out-back);
+        }
+        &__rbutton {
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 120px;
+            margin-top: -20px;
+            width: 180px;
+            height: 40px;
+            border-radius: 100px;
+            background: #fff;
+            &:nth-of-type(1) {
+                @include transform( translate3d(0,-120%,0) );
+            }
+            &:nth-of-type(3) {
+                @include transform( translate3d(0,120%,0) );
+                background: #93A5AE;
+            }
         }
     }
 }
