@@ -12,7 +12,7 @@ layout: default
             {% assign reading = site.reading %}
             {% for book in reading reversed %}
                 <li>
-                    <a href="{{ book.url }}">{{ book.title }}</a> <span class="event-list__date">{{ book.date | date: "%B, %Y" }}</span>
+                    <a href="{{ book.link }}">{{ book.title }}</a> <span class="event-list__date">{{ book.date | date: "%B, %Y" }}</span>
                     <span class="event-list__rating">
                         {% for item in (1..book.rating) %}★{% endfor %}
                     </span>
