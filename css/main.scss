@@ -299,6 +299,31 @@ figcaption {
         @extend .meta;
     }
 }
+.reading-list {
+    padding-left: 0;
+    li {
+        list-style-type: none;    
+    }
+    &__rating {
+        float: left;
+        width: 6.5em;
+    }
+    &__date {
+        @extend .event-list__date;
+    }
+    @media screen and (max-width: 900px) {
+        li {
+            margin-bottom: 1em;
+        }
+        a {
+            display: block;
+        }
+        &__rating,
+        &__date {
+            float: none;
+        }
+    }
+}
 .post-thumb {
     display: block;
     float: right;

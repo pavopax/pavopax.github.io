@@ -8,12 +8,13 @@ layout: default
         <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         {{ content }}
 
-        <ul class="event-list">
+        <ul class="reading-list">
             {% assign reading = site.reading %}
             {% for book in reading reversed %}
                 <li>
-                    <a href="{{ book.link }}">{{ book.title }}</a> <span class="event-list__date">{{ book.date | date: "%B, %Y" }}</span>
-                    <span class="event-list__rating">
+                    <a href="{{ book.link }}">{{ book.title }}</a>
+                    <span class="reading-list__date">{{ book.date | date: "%B, %Y" }}</span>
+                    <span class="reading-list__rating">
                         {% for item in (1..book.rating) %}★{% endfor %}
                     </span>
                 </li>
