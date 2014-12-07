@@ -530,7 +530,7 @@ ul {
             margin-left: -14px;
             top: -10%;
             left: 68%;
-            background: url(../images/sprite@2x.png) no-repeat 0 top;
+            background: url(../img/sprite@2x.png) no-repeat 0 top;
             background-size: auto 28px;
             @include animation( state-disabled-cursor 4s -5s infinite both $ease-out-back);
         }

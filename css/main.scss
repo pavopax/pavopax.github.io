@@ -1,5 +1,5 @@
 ---
-# Stupid front matter
+# Front matter
 ---
 @import "normalize.scss";
 @import "bourbon-master/dist/_bourbon";
@@ -86,7 +86,7 @@ h1,h2,h3 {
     }
 }
 h1, .h1 {
-    font-size: 3em;
+    font-size: 1.75em;
     font-family: sans-serif;
     line-height: 1.15;
     font-weight: bold;
