@@ -6,6 +6,7 @@ categories:
 ---
 
 From a [Reuters](http://www.reuters.com/article/2013/11/06/us-should-we-believe-idUSBRE9A50ZE20131106) column:
+
 > Data analysis is very similar to performing magic. With great skill you can pull things together and create the perception of surprising relationships.
 
 > lack of talent is not just an impediment; it’s a potential source of danger.
