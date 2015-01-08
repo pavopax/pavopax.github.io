@@ -77,7 +77,6 @@ Besides <b>courses</b> in my major/minors, I explored the humanites through high
 <p><b>Venti:</b> Emacs(+ESS), R, SAS <br />
 <b>Grande:</b> Unix, git, Vi, Lisp, SPSS, HTML/CSS <br />
 <b>Tall:</b> Python, C++, Stata, D3  </pachychymia>
-<
-/div>
+</div>
 
 
