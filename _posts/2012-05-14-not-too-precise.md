@@ -6,6 +6,7 @@ categories:
 ---
 
 Or, when not to be too precise.
+
 >Essential information is lost when transforming 2D data into a 1D measure.
 
 ![p-values](/img/blog/three_studies1.png)

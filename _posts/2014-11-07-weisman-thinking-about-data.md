@@ -10,10 +10,15 @@ categories:
 And while the focus in data science today seems to be on big data and novel methods like "deep learning," David Weisman, a 30-year veteran of the field, decided to focus on the basics during his presentation on Friday night.
 
 Here are David's fundamental principles to keep in mind:  
+
 * Summary statistics (mean, median, correlation) obscure important details   
+
 * Small samples have high variance  
+
 * When looking at your (observed) data, also think about unobserved data  
+
 * Correlation is a summary statistic itself, and only measures ONE type of relationship  
+
 * Big data can increase spurious corrleations  
 
 Regarding the first point, researchers often summarize data to uncover patterns (even a regression is a summary, David pointed out). But quantifying the variance (spread) of the data is equally important - and that is why graphical summaries are so critical (boxplot with overlaid jitter plot is my favorite).

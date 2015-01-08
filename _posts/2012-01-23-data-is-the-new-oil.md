@@ -8,8 +8,11 @@ categories:
 ![Infographic](/img/blog/data-infographic.png)
 
 Trends in data science, from an EMC2 infographic:  
+
 * demand will outpace supply (old news for some time)  
+
 * computer scientists are the biggest source of new talent  
+
 * besides computer science, data analysts come from backgrounds in business, natural science, mathematics, and the humanities  
 
 
