@@ -5,7 +5,7 @@ description: ""
 categories: 
 ---
 
-Below are notes from a talk at the Harvard Innovation Lab by Jim Waldo, CTO and instructor, Harvard University, on January 19, 2015. The following notes cover about 85% of the talk. Slides (minimalistic) to be available at http://blog.harvardventures.org. See bottom for a bonus.
+<i>Below are notes from a talk at the Harvard Innovation Lab by Jim Waldo, CTO and instructor, Harvard University, on January 19, 2015. The following notes cover about 85% of the talk. Slides (minimalistic) to be available at http://blog.harvardventures.org. See bottom for a bonus.</i>
 
 ## Intro notes
 If you're embarrassed by your code (by going open source) then you should not be distributing it to people in the first place.
