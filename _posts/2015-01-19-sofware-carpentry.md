@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Summary Statistics Obscure Important Details"''
+title: 'Summary Statistics Obscure Important Details'
 description: ""
 categories: 
 ---
