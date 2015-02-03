@@ -14,7 +14,7 @@ title: About
 <h1>Research interests</h1>
 
 <p>I am generally interested in big data inference, and specifically in big data bias and
- inference from metadata. What are potential caveats when using advanced, artificial intelligence algorithms? How do we best combine powerful, novel methods with traditional statistical insight, in order to make the best conclusion?</p>
+ inference from metadata. What are potential caveats when using advanced, artificial intelligence algorithms? How do we best combine powerful, novel methods with traditional statistical insight, in order to make the best conclusions?</p>
  <p>My other interests include visualization of statistical models and complex relationships, for the purpose of decision making.</p>
 </div>
 
@@ -65,14 +65,14 @@ University of Michigan - Fall 2011</p>
 <p><i>Summa cum Laude</i>
 DeSales University, Center Valley, PA <br />
 Minors: Biology, Chemistry  <br />
-Besides <b>courses</b> in my major/minors, I explored the humanites through higher-level classes in philosophy (Plato's Republic, Aquinas), history (Ancient Greece, Middle Ages), and literature (20th century lit, Enlightenment lit). </p>
+Besides <b>courses</b> in my major/minors, I completed all pre-med requirements, and also took higher-level classes in philosophy (Plato's Republic, Aquinas), history (Ancient Greece, Middle Ages), and literature (20th century lit, Enlightenment lit). </p>
 </div>
 
 
 <div id="skills">
 <h1>Skills + toolbox</h1>
 
-<p>I started coding with HTML in seventh grade, and haven't looked back (ask me for a keyboard shortcut!)</p>
+<p>I started coding in HTML in seventh grade, and haven't looked back (ask me for a keyboard shortcut!)</p>
 
 <p><b>Venti:</b> Emacs(+ESS), R, SAS <br />
 <b>Grande:</b> Unix, git, Vi, Lisp, SPSS, HTML/CSS <br />
