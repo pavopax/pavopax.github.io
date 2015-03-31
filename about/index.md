@@ -4,19 +4,10 @@ title: About
 ---
 
 ### Contents
-* [Research interests](./#into)
 * [Current and past research](./#past)
 * [Teaching experience](./#taught)
 * [Education](./#educ)
 * [Skills + toolbox](./#skills)
-
-<div id="into">
-<h1>Research interests</h1>
-
-<p>I am generally interested in big data inference, and specifically in big data bias and
- inference from metadata. What are potential caveats when using advanced, artificial intelligence algorithms? How do we best combine powerful, novel methods with traditional statistical insight, in order to make the best conclusions?</p>
- <p>My other interests include visualization of statistical models and complex relationships, for the purpose of decision making.</p>
-</div>
 
 <div id="past">
 <h1>Current and past research</h1>
