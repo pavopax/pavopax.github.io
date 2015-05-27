@@ -5,7 +5,7 @@ description: ""
 categories: 
 ---
 
-The highs and lows of Google Flu trends, "once a poster child for the power of big-data analysis," serve as a case study for David Lazer, Ryan Kennedy, Gary King, et al, in their Science Magazine article* "The Parable of Google Flu: Traps in Big Data Analysis." 
+The highs and lows of Google Flu trends, "once a poster child for the power of big-data analysis," serve as a case study for David Lazer, Ryan Kennedy, Gary King, et al, in their Science Magazine\* article "The Parable of Google Flu: Traps in Big Data Analysis." 
 
 In the age of "big data hubris," here are two takeaways from their analysis:
 
