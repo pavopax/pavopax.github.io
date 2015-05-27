@@ -61,10 +61,11 @@ What the code is actually doing is not too important. Instead, document interfac
 
 Have a *dev log*: keep a text file open as you develop and take notes on what/why/how. This will be useful when debugging. Back in the day engineers wrote logs in actual notebooks.
 
-### (4) MISC
+### (4) Misc
 
 **Track Bugs**
-Some stats claim 10-20 bugs per 1k code-lines. Microsoft claims 1 bug per 2k lines ['still a ****oad of bugs'].
+
+Some stats claim 10-20 bugs per 1k code-lines. Microsoft claims 1 bug per 2k lines ['still a \***load of bugs'].
 
 Space shuttle program was able to achieve exactly zero bugs - on 250k lines of code  - but took years to develop. And by the way, in these situations, the "oh, just download the patch" is not going to cut it :) 
 
@@ -83,6 +84,7 @@ Reproducibility is important (make it automated).
 **Use an IDE** - which should implement many of the above practices out of the box.
 
 ### Other Notes
+
 Good design comes from good designers. Good designers produce good design. They often learn from other good designers (cf. Fred Brooks, The Design of Design. See, e.g. ["seek knowledgeable criticism."](http://www.wired.com/2010/07/ff_fred_brooks/).
 
 Audience question on hiring good devs. Three things to do:  
