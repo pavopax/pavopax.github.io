@@ -18,4 +18,4 @@ Trends in data science, from an EMC2 infographic:
 
 [The full infographic is here [image]](http://practicalanalytics.files.wordpress.com/2012/01/datascientistinfographic.jpg)
 
-[And the article is on practicalanalytics.wordpress.com](http://practicalanalytics.wordpress.com/2012/01/22/data-scientist-infographic-new-skills-new-jobs/)
+And [the article is on practicalanalytics.wordpress.com](http://practicalanalytics.wordpress.com/2012/01/22/data-scientist-infographic-new-skills-new-jobs/)

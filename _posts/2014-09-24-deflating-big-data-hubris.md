@@ -9,13 +9,13 @@ The highs and lows of Google Flu trends, "once a poster child for the power of b
 
 In the age of "big data hubris," here are two takeaways from their analysis:
 
-1. Don't neglect old lessons learned, but combine new methods with previous wisdom:  
+* Don't neglect old lessons learned, but combine new methods with previous wisdom:  
 
 > "Big data hubris" is the often implicit assumption that big data are a substitute for, rather than a supplement to, traditional data collection and analysis.
 
-2. Aim for transparency and replicability when publishing your models:  
+* Aim for transparency and replicability when publishing your models:  
 
->Science is a cumulative endeavor, and to stand on the shoulders of giants requires that scientists be able to continually assess work on which they are building [...] Accumulation of knowledge requires fuel in the form of data.
+> "Science is a cumulative endeavor, and to stand on the shoulders of giants requires that scientists be able to continually assess work on which they are building [...] Accumulation of knowledge requires fuel in the form of data."
 
 Their article is available here:  
 ["The Parable of Google Flu: Traps in Big Data Analysis" (Science, 14 March 2014)](http://gking.harvard.edu/publications/parable-google-flu%C2%A0traps-big-data-analysis)
