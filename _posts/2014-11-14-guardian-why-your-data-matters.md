@@ -6,9 +6,9 @@ categories:
 ---
 
 
-Rather than burying its data collection motives and tactics in an obscure privacy policy, The Guardian has set up a portal with articles and videos explaining these in layman's terms.
+Rather than burying its data collection motives and tactics in an obscure privacy policy, The Guardian has set up a portal\* with articles and videos explaining these in layman's terms.
 
-A Reuters contributor comments: "We’re getting to a stage where we believe that trust is becoming a key differentiator for brands."
+A Reuters contributor comments\*: "We’re getting to a stage where we believe that trust is becoming a key differentiator for brands."
 
 Some excerpts from the Guardian's website follow, with links at bottom.
 
@@ -19,7 +19,7 @@ Some excerpts from the Guardian's website follow, with links at bottom.
 >"The Scott Trust [Owner of The Guardian] takes no dividend from the business, ensuring all profits are reinvested back into the Guardian and its award-winning journalism."
 
 
-### References
+### *References
 [http://www.theguardian.com/why-your-data-matters](http://www.theguardian.com/why-your-data-matters)
 
 
