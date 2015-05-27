@@ -65,7 +65,7 @@ Have a *dev log*: keep a text file open as you develop and take notes on what/wh
 
 **Track Bugs**
 
-Some stats claim 10-20 bugs per 1k code-lines. Microsoft claims 1 bug per 2k lines ['still a \***load of bugs'].
+Some stats claim 10-20 bugs per 1k code-lines. Microsoft claims 1 bug per 2k lines ['still a \****load of bugs'].
 
 Space shuttle program was able to achieve exactly zero bugs - on 250k lines of code  - but took years to develop. And by the way, in these situations, the "oh, just download the patch" is not going to cut it :) 
 
