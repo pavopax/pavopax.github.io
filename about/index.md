@@ -67,7 +67,7 @@ Besides <b>courses</b> in my major/minors, I completed all pre-med requirements,
 
 <p><b>Venti:</b> Emacs(+ESS), R, SAS <br />
 <b>Grande:</b> Unix, git, Vi, Lisp, SPSS, HTML/CSS <br />
-<b>Tall:</b> Python, C++, Stata, D3  </pachychymia>
+<b>Tall:</b> Python, SQL, C++, Stata, D3  </pachychymia>
 </div>
 
 
