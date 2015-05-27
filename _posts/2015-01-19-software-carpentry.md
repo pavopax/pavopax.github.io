@@ -54,7 +54,7 @@ You should merge:
 
 [definition: a unit test tests small chunks of code]
 
-### (3) Documentation
+### (3) Document your work, and your software
 Good documentations makes it seem like the software is easy to use.
 
 What the code is actually doing is not too important. Instead, document interface between objects/functions, the implementation, and the design.
@@ -69,7 +69,7 @@ Some stats claim 10-20 bugs per 1k code-lines. Microsoft claims 1 bug per 2k lin
 
 Space shuttle program was able to achieve exactly zero bugs - on 250k lines of code  - but took years to develop. And by the way, in these situations, the "oh, just download the patch" is not going to cut it :) 
 
-**Builds**
+**Use Builds**
 
 a build:  
 
