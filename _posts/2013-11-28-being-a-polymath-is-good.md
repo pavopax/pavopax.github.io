@@ -9,7 +9,7 @@ Or, "a person can do all things if he will."
 
 We trust experts precisely because of their deep command of a narrow field (their knowledge is like a fjord). But their path to expertise could have traversed many fields, which allowed them to make previously unnoticed connections. 
 
-From Aeon Magazine:
+From Aeon Magazine*:
 
 >To come up with [innovative] ideas, you need to know things outside your field. What’s more, the further afield your knowledge extends, the greater potential you have for innovation.
 
@@ -19,10 +19,12 @@ From Aeon Magazine:
 
 The article provides further examples of cross-disciplinary innovation, the potential problems with the division of labor, and why children "learn all the time."
 
-### Reference
+### *Reference
 
 http://www.aeonmagazine.com/world-views/anyone-can-learn-to-be-a-polymath
+
 –  
+
 UPDATE: [A related article from Wired](http://www.wired.com/opinion/2013/12/165191) urges for the transformation of academia and business (at least most of it) to foster creativity and interdisciplinary thinking, of the sort present in entrepreneurial organizations which produce so many revolutionary products.
 
 

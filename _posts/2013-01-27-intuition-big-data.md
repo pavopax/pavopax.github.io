@@ -5,7 +5,7 @@ description: ""
 categories: 
 ---
 
-Steve Lohr at the New York Times writes a reflection on the promises of Big Data, citing increasing buzz, yet also its initial big failure:
+Steve Lohr at the New York Times\* writes a reflection on the promises of Big Data, citing increasing buzz, yet also its initial big failure:
 
 >"Many of the Big Data techniques of math modeling, predictive algorithms and artificial intelligence software were first widely applied on Wall Street." And what happened there we all know.
 
@@ -21,6 +21,6 @@ A skill in the liberal arts and scientific method seems as important as computer
 
 And the impact of this work is wide: "Models do not just predict, but they can make things happen," she says.
 
-### Reference
+### *Reference
 
 [Steve Lohr, New York Times](http://www.nytimes.com/2012/12/30/technology/big-data-is-great-but-dont-forget-intuition.html?_r=0)

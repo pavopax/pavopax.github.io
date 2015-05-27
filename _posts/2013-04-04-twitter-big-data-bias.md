@@ -11,7 +11,7 @@ If you’re not too careful, you could conclude from the above quote that genera
 
 ![Twitter Map](/img/blog/twitter1.jpg)
 
-This is the point that Kate Crawford makes in a recent article, “The Hidden Biases in Big Data” (Harvard Business Review)<sup>1</sup>. With a data sample, it is always critical to ask whether the sample is representative of the target population, or not.
+This is the point that Kate Crawford makes in a recent article, “The Hidden Biases in Big Data” (Harvard Business Review)\*. With a data sample, it is always critical to ask whether the sample is representative of the target population, or not.
 
 Thus, considering the iPad sentiment example, a key questions is: are the people who tweeted about Apple’s iPad over that weekend (the sample) representative of all the people who have, or even could have, interacted with the iPad during that time (the target population)? 
 
@@ -23,6 +23,6 @@ Some excerpts from the article:
 
 * We get a much richer sense of the world when we ask people the why and the how, not just the "how many".
 
-### Reference
+### *Reference
 
 [Kate Crawford, “The Hidden Biases in Big Data” (Harvard Business Review)](https://hbr.org/2013/04/the-hidden-biases-in-big-data)
