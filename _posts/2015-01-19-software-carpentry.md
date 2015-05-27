@@ -7,19 +7,20 @@ categories:
 
 <i>Below are notes from a talk at the Harvard Innovation Lab by Jim Waldo, CTO and instructor, Harvard University, on January 19, 2015. The following notes cover about 85% of the talk. See bottom for a bonus.</i>
 
-### Intro notes
+### Introductory remarks
 If you're embarrassed by your code (by going open source) then you should not be distributing it to people in the first place.
 
-You can't do agile and fast development without practicing some basic principles. IE fail fast and often only works if you're working well.
+You can't do agile and fast development without practicing some basic principles. That is, "fail fast and often" only works if you're working well.
 
-### (1) FOLLOW A STYLE GUIDE
+### (1) Follow A Style Guide
+
 But it should be neither Deuteronomy nor chaos - requires a balance. Just find one and use.
 
-### (2) USE SOURCE CODE CONTROL
+### (2) Use Source Code Control
 
 Doesn't matter which, just use one.
 
-Branching, in order of 'polish':  
+Use this branching, in descending order of 'polish':  
 
 * MAIN LINE - always works, always ready when a demo is required by VC or something  
 
@@ -51,22 +52,23 @@ You should merge:
 
 * review results  
 
-[definition: unit test tests small code chunks]
+[definition: a unit test tests small chunks of code]
 
 ### (3) Documentation
-Good documentations makes it seems like software is easy to use.
+Good documentations makes it seem like the software is easy to use.
 
 What the code is actually doing is not too important. Instead, document interface between objects/functions, the implementation, and the design.
 
 Have a *dev log*: keep a text file open as you develop and take notes on what/why/how. This will be useful when debugging. Back in the day engineers wrote logs in actual notebooks.
 
-### MISC
-(4) Track Bugs
-Some stats claim 10-20 bugs per 1k code-lines. Microsoft claims 1 bug per 2k lines ['still a **** load of bugs'].
+### (4) MISC
 
-Space shuttle program was able to achieve exactly zero bugs - on 250k lines of code  -but took years to develop. And by the way, in these situations, the "oh, just download the patch" is not going to cut it :) 
+**Track Bugs**
+Some stats claim 10-20 bugs per 1k code-lines. Microsoft claims 1 bug per 2k lines ['still a ****oad of bugs'].
 
-(5) Builds  
+Space shuttle program was able to achieve exactly zero bugs - on 250k lines of code  - but took years to develop. And by the way, in these situations, the "oh, just download the patch" is not going to cut it :) 
+
+**Builds**
 
 a build:  
 
@@ -78,9 +80,9 @@ a build:
 
 Reproducibility is important (make it automated). 
 
-Use an IDE - which should implement many of the above practices out of the box.
+**Use an IDE** - which should implement many of the above practices out of the box.
 
-### NOTES
+### Other Notes
 Good design comes from good designers. Good designers produce good design. They often learn from other good designers (cf. Fred Brooks, The Design of Design. See, e.g. ["seek knowledgeable criticism."](http://www.wired.com/2010/07/ff_fred_brooks/).
 
 Audience question on hiring good devs. Three things to do:  
@@ -93,15 +95,15 @@ Audience question on hiring good devs. Three things to do:
 
 Documentation, and code, is like literature. We speak of 'writing code.'
 
-### Bonus: two things of which there two types
+### Bonus: two things of which there two types, from Jim Waldo
 
-there exist two types of code:  
+There exist two types of code:  
 
 * code that is tested  
 
 * code that doesn't work  
 
-there exist two types of data:  
+There exist two types of data:  
 
 * data that you've backed up  
 
