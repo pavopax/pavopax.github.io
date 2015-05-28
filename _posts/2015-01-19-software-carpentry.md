@@ -85,7 +85,7 @@ Reproducibility is important (make it automated).
 
 ### Other Notes
 
-Good design comes from good designers. Good designers produce good design. They often learn from other good designers (cf. Fred Brooks, The Design of Design. [Also see this Wired article.](http://www.wired.com/2010/07/ff_fred_brooks/)
+Good design comes from good designers. Good designers produce good design. They often learn from other good designers (cf. Fred Brooks, The Design of Design. [And see this Wired article.](http://www.wired.com/2010/07/ff_fred_brooks/)).
 
 Audience question on hiring good devs. Three things to do:  
 
