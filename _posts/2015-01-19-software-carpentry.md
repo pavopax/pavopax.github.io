@@ -55,7 +55,7 @@ You should merge:
 [definition: a unit test tests small chunks of code]
 
 ### (3) Document your work, and your software
-Good documentations makes it seem like the software is easy to use.
+Good documentation makes it seem like the software is easy to use.
 
 What the code is actually doing is not too important. Instead, document interface between objects/functions, the implementation, and the design.
 
@@ -85,7 +85,7 @@ Reproducibility is important (make it automated).
 
 ### Other Notes
 
-Good design comes from good designers. Good designers produce good design. They often learn from other good designers (cf. Fred Brooks, The Design of Design. See, e.g. ["seek knowledgeable criticism."](http://www.wired.com/2010/07/ff_fred_brooks/).
+Good design comes from good designers. Good designers produce good design. They often learn from other good designers (cf. Fred Brooks, The Design of Design. [Also see this Wired article.](http://www.wired.com/2010/07/ff_fred_brooks/)
 
 Audience question on hiring good devs. Three things to do:  
 

@@ -9,7 +9,7 @@ From a *New York Times* article\* "Inside Apple's Internal Training Program", so
 
 * how Picasso's bull drawings\* are similar to an Apple mouse: "You go through more iterations until you can simply deliver your message in a very concise way"
 
-* the hidden effort is hidden: like "a gleaming veneer that masks a great deal of effort"
+* the effort is hidden: "a gleaming veneer that masks a great deal of effort"
 
 * a Google remote has 78 buttons. Apple's has three.
 

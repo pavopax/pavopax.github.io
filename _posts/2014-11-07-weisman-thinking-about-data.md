@@ -35,12 +35,12 @@ Last, to illustrate how big data can show spurious correlation (and the need for
 ### References
 David's slides include an excellent set of exercises to help you "think about your data." [They are available from the Boston Data Festitval website, under "Friday"](http://www.bostondatafest.com/slides/).
 
-[David recommended Judea Pearl's work to learn about causality](http://bayes.cs.ucla.edu/jp_home.html)
+[David recommended Judea Pearl's work to learn about causality.](http://bayes.cs.ucla.edu/jp_home.html)
 
 Also check out [this article from Science Magazine](http://gking.harvard.edu/publications/parable-google-flu%C2%A0traps-big-data-analysis) where the authors also emphasize balancing "the new" with the tried and tested. 
 
 
-Andrew Gelman from Columbia on large effects:
+Finally, Andrew Gelman from Columbia on large effects:
 
 > For instance it is not uncommon in an underpowered study for a researcher to state that although his estimate is not statistically significantly different from 0, that could simply be a function of the overly large standard error. <b>Ironically, however, large estimates are actually a byproduct of large standard errors.</b> [Emphasis added]  
 

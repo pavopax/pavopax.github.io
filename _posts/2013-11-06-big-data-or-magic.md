@@ -17,7 +17,7 @@ As is often the case, there are dangers as well as opportunities. We must be "bo
 
 ### *Reference
 
-[http://www.reuters.com/article/2013/11/06/us-should-we-believe-idUSBRE9A50ZE20131106](http://www.reuters.com/article/2013/11/06/us-should-we-believe-idUSBRE9A50ZE20131106)
+[The Reuters article](http://www.reuters.com/article/2013/11/06/us-should-we-believe-idUSBRE9A50ZE20131106)
 
 
 
