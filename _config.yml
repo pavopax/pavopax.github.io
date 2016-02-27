@@ -1,8 +1,8 @@
 # Site settings
-title: Pawel Paczuski
+title: Paul Paczuski
 email: pavopax@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-   Pawel Paczuski
+   Paul Paczuski
 baseurl: "" # the subpath of your site, e.g. /
 uploadsurl: "https://s3.amazonaws.com/martenbjork.com/media/"
 url: "http://pavopax.com" # the base hostname & protocol for your site
