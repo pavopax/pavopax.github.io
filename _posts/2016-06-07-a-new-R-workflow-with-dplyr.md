@@ -6,7 +6,7 @@ categories:
 ---
 
 R is fantastic, as you may know, and you can take it to the next level by
-learning the pipe `%>%` operator and using the packages `dplyr`, `ggplot`,
+learning the pipe `%>%` operator and using the packages `dplyr`, `ggplot2`,
 `broom` and a few others.
 
 In fact, this toolkit may completely change your R analysis workflow for the
@@ -29,7 +29,7 @@ functions from `dplyr` to get average Sepal Width, by Species.
 
 What is the pipe? It's absolutely amazing. The pipe `%>%` "passes the object on
 the left hand side as the first argument (or .  argument) of the function on
-righthand side:"
+the righthand side:"
 
 	x %>% f(y) is the same as f(x, y)
 
@@ -81,7 +81,7 @@ tool) may be less well-known.  Now is the time to finally embrace them all.
 These three resources should get you started quickly. Don't forget about #3:
 
 1. For a more detailed overview of `dplyr`, `magrittr` pipes, `tidyr` and
-`ggplot`, [click here for a post from ZevRoss.com](http://zevross.com/blog/2015/01/13/a-new-data-processing-workflow-for-r-dplyr-magrittr-tidyr-ggplot2/) 
+`ggplot2`, [click here for a post from ZevRoss.com](http://zevross.com/blog/2015/01/13/a-new-data-processing-workflow-for-r-dplyr-magrittr-tidyr-ggplot2/) 
 2. Then, to learn `broom` (with `dplyr`),
 [take a look at this vignette on CRAN](https://cran.r-project.org/web/packages/broom/vignettes/broom_and_dplyr.html)
 3. Finally, [print or save this `dplyr/tidyr` reference PDF from RStudio](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
