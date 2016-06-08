@@ -5,13 +5,61 @@ description: ""
 categories: 
 ---
 
-R is fantastic, and you can take it to the next level by learning the R
-packages `dplyr`, `ggplot`, `broom` and a few others, and the pipe `%>%`
-operator.
+R is fantastic, as you may know, and you can take it to the next level by
+learning the pipe `%>%` operator and using the packages `dplyr`, `ggplot`,
+`broom` and a few others.
 
-In fact, this toolkit may completely change your R analysis workflow for the better: that
-is, your R code will be easier to use, easier to read, easier to understand
-(for you and others), and faster to execute.
+In fact, this toolkit may completely change your R analysis workflow for the
+better: that is, your R code will be easier to use, easier to read, easier to
+understand (for you and others), and faster to execute.
+
+Instructions to get started, as well as some more detailed tutorials, are
+below, in the **Quick Start**.
+
+Here, I'll show a few *very brief* motivating examples (see the links below for
+details). You can probably guess what this first snippet is doing:
+
+	iris %>%
+        group_by(Species) %>%
+        summarise(avg = mean(Sepal.Width)) %>%
+        arrange(avg)
+
+We take the `iris` data frame, and use the pipe `%>%` along with a few
+functions from `dplyr` to get average Sepal Width, by Species.
+
+What is the pipe? It's absolutely amazing. The pipe `%>%` "passes the object on
+the left hand side as the first argument (or .  argument) of the function on
+righthand side:"
+
+	x %>% f(y) is the same as f(x, y)
+
+	y %>% f(x, ., z) is the same as f(x, y, z )
+
+Here is another example. Both of the following snippets are equivalent (base R is first). Which
+looks easier to write, and understand?
+
+	paste0("(", gsub(".", "_", tolower(names(iris)), fixed=TRUE), ")")
+
+OR:
+
+	names(iris) %>%
+		tolower %>%
+		gsub(".", "_", ., fixed=TRUE) %>%
+		paste0("(", ., ")")
+
+Using the pipe makes the code more readable, and alleviates usage of nested
+parentheses. You will wish something like it was available in other languages
+(I SO miss it in Python... [But see here](https://github.com/dodger487/dplython)).
+
+The package `dplyr` provides a handful of intuitive functions for data
+manipulation, like `select`, `filter`, `summarise`, and `mutate`, and works
+especially well with the pipe. I can't remember the last time I used `lapply`
+or the other base R `*apply` functions. I think that's for the better. Instead,
+I use the above new syntax in almost every line of R code I write.
+
+Here is what you need to get started:
+
+## Quick Start
 
 The essential packages are:
 
@@ -24,22 +72,22 @@ Highly recommended additions include:
 * `magrittr` - for advanced "piping" with `%<>%` etc (see below)
 * `broom` - for easily combining results from many analyses (eg, regressions)
 
-To get started, take a look at these three resources:
+Install the packages as usual.
 
-1. For a quick start on `dplyr`, `magrittr` pipes, `tidyr` and
+You are most likely already using `ggplot2` and probably have heard of the pipe
+and `dplyr`. `broom` and the compound operator `%<>%` (again, an *amazing*
+tool) may be less well-known.  Now is the time to finally embrace them all.
+
+These three resources should get you started quickly. Don't forget about #3:
+
+1. For a more detailed overview of `dplyr`, `magrittr` pipes, `tidyr` and
 `ggplot`, [click here for a post from ZevRoss.com](http://zevross.com/blog/2015/01/13/a-new-data-processing-workflow-for-r-dplyr-magrittr-tidyr-ggplot2/) 
 2. Then, to learn `broom` (with `dplyr`),
 [take a look at this vignette on CRAN](https://cran.r-project.org/web/packages/broom/vignettes/broom_and_dplyr.html)
-3. Finally, [print or save this reference PDF on dplyr and tidyr, from RStudio](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+3. Finally, [print or save this `dplyr/tidyr` reference PDF from RStudio](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 
-There are many fantastic posts showing you the essentials, so instead of
-re-creating the wheel, I simply link to the above. 
 
-You are most likely already using `ggplot` and probably have heard of the pipe
-and `dplyr`. `broom` and the compound operator may be less well-known.  Now is
-the time to finally embrace them all.
-
-A few other resources/references follow:
+Here are a few other resources/references:
 
 * Reshaping data from wide to long or vice versa is a common task, but I was
 not satisfied with the docs for `spread` and
