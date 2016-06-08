@@ -5,12 +5,12 @@ description: ""
 categories: 
 ---
 
-R is fantastic, as you may know, and you can take it to the next level by
+R is a fantastic tool for data analysis, and you can take it to the next level by
 learning the pipe `%>%` operator and using the packages `dplyr`, `ggplot2`,
 `broom` and a few others.
 
 In fact, this toolkit may completely change your R analysis workflow for the
-better: that is, your R code will be easier to use, easier to read, easier to
+better. That is, your R code will be easier to use, easier to read, easier to
 understand (for you and others), and faster to execute.
 
 Instructions to get started, as well as some more detailed tutorials, are
@@ -66,7 +66,7 @@ The essential packages are:
 * `dplyr` - for data manipulation
 * `ggplot2` - for graphics
 
-Highly recommended additions include:
+Highly recommended packages include:
 
 * `tidyr` - for reshaping data (long <-> wide)
 * `magrittr` - for advanced "piping" with `%<>%` etc (see below)
