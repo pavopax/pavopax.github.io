@@ -25,7 +25,8 @@ details). You can probably guess what this first snippet is doing:
         arrange(avg)
 
 We take the `iris` data frame, and use the pipe `%>%` along with a few
-functions from `dplyr` to get average Sepal Width, by Species.
+functions from `dplyr` to get average Sepal Width, by Species. Last, we sort
+the results.
 
 What is the pipe? It's absolutely amazing. The pipe `%>%` "passes the object on
 the left hand side as the first argument (or .  argument) of the function on
