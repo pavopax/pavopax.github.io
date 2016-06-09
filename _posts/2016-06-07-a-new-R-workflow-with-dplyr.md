@@ -30,7 +30,7 @@ the results.
 
 What is the pipe? It's absolutely amazing. The pipe `%>%` "passes the object on
 the left hand side as the first argument (or .  argument) of the function on
-the righthand side:"
+the right-hand side:"
 
 	x %>% f(y) is the same as f(x, y)
 
@@ -48,9 +48,13 @@ OR:
 		gsub(".", "_", ., fixed=TRUE) %>%
 		paste0("(", ., ")")
 
-Using the pipe makes the code more readable, and alleviates usage of nested
-parentheses. You will wish something like it was available in other languages
-(I SO miss it in Python... [But see here](https://github.com/dodger487/dplython)).
+Using the pipe makes the code more readable: we immediately know what's being
+analyzed (the names of the `iris` data frame), and the rest of the actions
+follow in a logical sequence, arranged for maximum readability. This syntax
+also alleviates usage of nested parentheses, which can be hard to keep track
+of, even with a good text editor. You will wish something like the pipe was
+available in other languages (I SO miss it in
+Python... [But see here](https://github.com/dodger487/dplython)).
 
 The package `dplyr` provides a handful of intuitive functions for data
 manipulation, like `select`, `filter`, `summarise`, and `mutate`, and works
@@ -90,7 +94,7 @@ These three resources should get you started quickly. Don't forget about #3:
 
 Here are a few other resources/references:
 
-* Reshaping data from wide to long or vice versa is a common task, but I was
+* Reshaping data from wide to long or vice-versa is a common task, but I was
 not satisfied with the docs for `spread` and
 `gather`. [So I still refer to this `gather` and `spread` cookbook on cookbook-r.com](http://www.cookbook-r.com/Manipulating_data/Converting_data_between_wide_and_long_format/)
 * The basic pipe `%>%` is just the beginning. Learn the rest (including `%<>%` and `%T>%`),
