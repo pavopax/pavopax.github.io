@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Where a human still beats an algorithm'
+title: Where a human still beats an algorithm
 description: ""
 categories: 
 ---
