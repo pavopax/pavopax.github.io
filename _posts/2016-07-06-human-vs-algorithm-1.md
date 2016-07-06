@@ -17,6 +17,8 @@ Below is a list of a few human-curated tech products, and [here is a more detail
 
 [**theSkimm news**](http://www.theskimm.com) : “Each writeup in theSkimm, [which is entirely written and edited by the duo](http://www.fastcompany.com/3021236/most-creative-people/how-theskimm-became-the-must-read-newsletter-for-women), features a brief synopsis of the news, some background and analysis, and the takeaway, or (you guessed it) theSkimm.” Contrast this with the [increasing number of machine-written news](http://www.nytimes.com/2015/03/08/opinion/sunday/if-an-algorithm-wrote-this-how-would-you-even-know.html?_r=0).
 
-Even **PayPal** fights fraud with [a combination of machine learning and human analysts](http://blogs.wsj.com/cio/2015/08/25/paypal-fights-fraud-with-machine-learning-and-human-detectives/). Sharing the same co-founder as PayPayl, the secretive data analysis startup Palantir has found success with [a similar formula](http://www.bloomberg.com/news/articles/2011-11-22/palantir-the-war-on-terrors-secret-weapon)
+Even **PayPal** fights fraud with [a combination of machine learning and human analysts](http://blogs.wsj.com/cio/2015/08/25/paypal-fights-fraud-with-machine-learning-and-human-detectives/). Sharing the same co-founder as PayPayl, the secretive data analysis startup **Palantir** has found success with [a similar formula](http://www.bloomberg.com/news/articles/2011-11-22/palantir-the-war-on-terrors-secret-weapon).
+
+The takeaway seems to be that an optimal approach to many tech problems consists in intelligently combining the strengths of technology and *homo sapiens.* 
 
 [Drop me a line](http://twitter.com/pavopax/) if you know of more examples.
