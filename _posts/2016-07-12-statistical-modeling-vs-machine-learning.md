@@ -42,10 +42,9 @@ transformed) predictors you have, whether 10 or 10,000.
 ## Explanation
 
 In the first example, you are doing inference with simpler, interpretable
-models, and this is **statistical modeling**.
-
-In the second example, the model isn't as important as its predictive power, and
-you are doing **machine learning**.
+models, and this is **statistical modeling**. In the second example, the model
+isn't as important as its predictive power, and you are doing **machine
+learning**.
 
 In terms of actual methods, to understand heart disease or another condition,
 you may build a logistic regression model with a few predictors. To classify
