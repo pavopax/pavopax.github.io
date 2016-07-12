@@ -78,6 +78,8 @@ disagree with something in the above,
 [let me know here](http://twitter.com/pavopax).
 
 
+## References
+
 *You can [read here about the source of this quote](https://en.wikipedia.org/wiki/All_models_are_wrong).
 
 **Essentially, what he says is that "machine learners care about making really
