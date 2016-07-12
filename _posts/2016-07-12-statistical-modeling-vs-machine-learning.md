@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Distinguishing between statistical modeling and machine learning
+title: 'Distinguishing between statistical modeling and machine learning'
 description: ""
 categories: 
 ---
