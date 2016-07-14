@@ -59,23 +59,23 @@ logistic regression is often mentioned as a machine learning model.
 
 Still, the framework described here is just that, a framework or a model, and
 we all (should) know that in certain ways, "all models are wrong." But to
-complete the thought, "... but some are useful."*
+complete the thought, "... but some are useful." *
 
 ## Summary and acknowledgment
 
 In summary:
 
-	statistical modeling <- perform **inference** based on interpretable models
-	machine learning <- throw a lot of data at a model, make accurate **predictions**. Interpretability not important
+	statistical modeling <- perform inference based on interpretable models
+	machine learning <- make accurate predictions from heaps of data. Interpretability not important
 
 This framework was partly inspired by an informal statement from Hadley Wickham.**
 
 
 ## Let me know what you think
 
-If you or someone else have a different take, or
+If you or someone else have a different take, or you
 disagree with something in the above,
-[let me know here](http://twitter.com/pavopax).
+[I am all ears. Le me know here](http://twitter.com/pavopax).
 
 
 ## References
