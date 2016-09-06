@@ -13,11 +13,13 @@ In fact, this toolkit may completely change your R analysis workflow for the
 better. That is, your R code will be easier to use, easier to read, easier to
 understand (for you and others), and faster to execute.
 
-Instructions to get started, as well as some more detailed tutorials, are
-below, in the **Quick Start**.
+Instructions to get started, as well as some more detailed tutorials, are near
+the bottom, in the **Quick Start**.
 
 Here, I'll show a few *very brief* motivating examples (see the links below for
-details). You can probably guess what this first snippet is doing:
+details). 
+
+You can probably guess what this first snippet is doing:
 
 	iris %>%
         group_by(Species) %>%
@@ -78,10 +80,6 @@ Highly recommended packages include:
 * `broom` - for easily combining results from many analyses (eg, regressions)
 
 Install the packages as usual.
-
-You are most likely already using `ggplot2` and probably have heard of the pipe
-and `dplyr`. `broom` and the compound operator `%<>%` (again, an *amazing*
-tool) may be less well-known.  Now is the time to finally embrace them all.
 
 These three resources should get you started quickly. Don't forget about #3:
 
