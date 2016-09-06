@@ -81,7 +81,7 @@ Highly recommended packages include:
 
 Install the packages as usual.
 
-These three resources should get you started quickly. Don't forget about #3:
+The following three resources should get you started quickly. Don't forget about #3:
 
 1. For a more detailed overview of `dplyr`, `magrittr` pipes, `tidyr` and
 `ggplot2`, [click here for a post from ZevRoss.com](http://zevross.com/blog/2015/01/13/a-new-data-processing-workflow-for-r-dplyr-magrittr-tidyr-ggplot2/) 
