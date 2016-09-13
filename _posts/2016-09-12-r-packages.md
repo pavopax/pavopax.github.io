@@ -8,11 +8,11 @@ categories:
 I'm keeping a list of R packages for a variety of applications. 
 
 The goal is to exclude older versions of packages which have been replaced (eg,
-I exclude Hadley's `reshape2` in favor of his newer `tidyr`.
+I exclude `reshape2` in favor of the newer `tidyr`).
 
 Naturally, there is a preference for [Hadley's](http://hadley.nz) packages.
 
-If you only want the essentials, then this is my list:
+If you only want the essentials, then this is my list:  
 `dplyr, tidyr, magrittr, ggplot2`
 
 
