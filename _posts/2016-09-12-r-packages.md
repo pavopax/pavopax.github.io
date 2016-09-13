@@ -12,10 +12,14 @@ I exclude Hadley's `reshape2` in favor of his newer `tidyr`.
 
 Naturally, there is a preference for [Hadley's](http://hadley.nz) packages.
 
+If you only want the essentials, then this is my list:
+`dplyr, tidyr, magrittr, ggplot2`
+
 
 # Data wrangling
 - dplyr
 - tidyr
+- magrittr
 
 # Special data wrangling
 - lubridate for dates
@@ -23,6 +27,8 @@ Naturally, there is a preference for [Hadley's](http://hadley.nz) packages.
 - httr - pulling data from APIs
 - matrix [Sparse and Dense Matrix Classes and Methods]
 
+# load data
+- haven - for SAS, SPSS (replaces foreign)
 
 # vis, graphics
 - ggplot2
