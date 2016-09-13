@@ -42,7 +42,7 @@ Let me [know what you think!](http://twitter.com/pavopax)
 # Vis apps
 - Shiny
 - ggvis
-- manipulate! (RStudio only?)
+- manipulate (RStudio only?)
 
 
 # Machine learning - general
@@ -53,7 +53,7 @@ Let me [know what you think!](http://twitter.com/pavopax)
 # Machine learning - specific
 - vcd - Visualization tools and tests for categorical data
 - glm
-- glmnet [Lasso and Elastic-Net Regularized Generalized Linear Models]
+- glmnet - Lasso and Elastic-Net Regularized Generalized Linear Models
 - randomforest
 - e1071 for SVM
 - gbm - gradient boosting machine
