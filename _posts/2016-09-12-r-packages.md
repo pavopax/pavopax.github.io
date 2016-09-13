@@ -16,39 +16,39 @@ If you only want the essentials, then this is my list:
 `dplyr, tidyr, magrittr, ggplot2`
 
 
-# Data wrangling
+## Data wrangling
 - dplyr
 - tidyr
 - magrittr
 
-# Special data wrangling
+## Special data wrangling
 - lubridate for dates
 - stringr for strings
 - httr - pulling data from APIs
 - matrix [Sparse and Dense Matrix Classes and Methods]
 
-# load data
+## load data
 - haven - for SAS, SPSS (replaces foreign)
 
-# vis, graphics
+## vis, graphics
 - ggplot2
 - lattice
 - rCharts
 - RColorBrewer - colors
 
 
-# viz apps
+## viz apps
 - Shiny
 - ggvis
 - manipulate! (RStudio only?)
 
 
-# machine learning - general
+## machine learning - general
 - modelr
 - caret
 - gmodels
 
-# machine learning - specifics
+## machine learning - specifics
 - vcd - Visualization tools and tests for categorical data
 - glm
 - glmnet [Lasso and Elastic-Net Regularized Generalized Linear Models]
@@ -57,15 +57,15 @@ If you only want the essentials, then this is my list:
 - gbm - gradient boosting machine
 - zoo for time series
 
-# Parallelization
+## Parallelization
 - doMc
 - doParallel
 
-# Development
+## Development
 - devtools - An essential suite of tools for turning your code into an R package.
 - testthat - provides an easy way to write unit tests for your code projects.
 - roxygen2 - A quick way to document your R packages. roxygen2 turns inline code comments into documentation pages and builds a package namespace.
 
-# Other
+## Other
 - RCPP
 - digest for hash digests (?)
