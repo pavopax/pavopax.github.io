@@ -16,6 +16,7 @@ Naturally, there is a preference for [Hadley's](http://hadley.nz) packages.
 If you only want the essentials, then this is my list:  
 `dplyr, tidyr, magrittr, ggplot2`
 
+[Let me know what you think!](http://twitter.com/pavopax)
 
 # Data wrangling
 - dplyr
