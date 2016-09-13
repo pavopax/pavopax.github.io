@@ -23,11 +23,11 @@ Let me know what you think [on twitter.](http://twitter.com/pavopax)
 - tidyr
 - magrittr
 
-# Special data wrangling
+# Specialized data wrangling
 - lubridate for dates
 - stringr for strings
 - httr - pulling data from APIs
-- matrix [Sparse and Dense Matrix Classes and Methods]
+- matrix - Sparse and Dense Matrix Classes and Methods
 
 # Load data
 - haven - for SAS, SPSS (replaces foreign)
