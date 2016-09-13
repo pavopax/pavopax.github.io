@@ -58,6 +58,7 @@ Let me know what you think [on twitter.](http://twitter.com/pavopax)
 - e1071 for SVM
 - gbm - gradient boosting machine
 - zoo for time series
+- nnet - Neural Nets
 
 # Parallelization
 - doMc
