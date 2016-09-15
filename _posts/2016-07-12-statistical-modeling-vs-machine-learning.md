@@ -75,7 +75,7 @@ This framework was partly inspired by an informal statement from Hadley Wickham.
 
 If you or someone else have a different take, or you
 disagree with something in the above,
-[I am all ears. Le me know here](http://twitter.com/pavopax).
+[I am all ears. Let me know here](http://twitter.com/pavopax).
 
 
 ## References
