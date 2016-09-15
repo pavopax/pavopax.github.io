@@ -68,6 +68,6 @@ Besides <b>courses</b> in my major/minors, I completed all pre-med requirements,
 <p><b>Venti:</b> R, SAS, Emacs(+ESS) <br />
 <b>Grande:</b> Python, SQL, Unix, git, Vi, SPSS, HTML/CSS <br />
 <b>Tall:</b> C++, Spark, Map-reduce, Stata, D3, Lisp
-</div>
+
 
 
