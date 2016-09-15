@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-### Contents
+### Jump to:
 * [Current and past research](./#past)
 * [Teaching experience](./#taught)
 * [Education](./#educ)
@@ -66,8 +66,8 @@ Besides <b>courses</b> in my major/minors, I completed all pre-med requirements,
 <p>I started coding in HTML in seventh grade, and haven't looked back (ask me for a keyboard shortcut!)</p>
 
 <p><b>Venti:</b> R, SAS, Emacs(+ESS) <br />
-<b>Grande:</b> Unix, git, Vi, Lisp, SPSS, HTML/CSS <br />
-<b>Tall:</b> Python, SQL, C++, Stata, D3  </pachychymia>
+<b>Grande:</b> Python, SQL, Unix, git, Vi, SPSS, HTML/CSS <br />
+<b>Tall:</b> C++, Spark, Map-reduce, Stata, D3, Lisp
 </div>
 
 
