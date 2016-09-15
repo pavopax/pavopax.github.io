@@ -14,7 +14,7 @@ better. That is, your R code will be easier to use, easier to read, easier to
 understand (for you and others), and faster to execute.
 
 Instructions to get started, as well as some more detailed tutorials, are near
-the bottom, in the [**Quick Start**](#quick-start).
+the bottom, in the [Quick Start](#quick-start).
 
 Here, I'll show a few *very brief* motivating examples (see the links below for
 details). 
