@@ -52,10 +52,11 @@ OR:
 
 Using the pipe makes the code more readable: we immediately know what's being
 analyzed (the names of the `iris` data frame), and the rest of the actions
-follow in a logical sequence, arranged for maximum readability. This syntax
-also alleviates usage of nested parentheses, which can be hard to keep track
-of, even with a good text editor. You will wish something like the pipe was
-available in other languages (I SO miss it in
+follow in a logical sequence, arranged for maximum readability.
+
+This syntax also alleviates usage of nested parentheses, which can be hard to
+keep track of, even with a good text editor. You will wish something like the
+pipe was available in other languages (I SO miss it in
 Python... [But see here](https://github.com/dodger487/dplython)).
 
 The package `dplyr` provides a handful of intuitive functions for data
