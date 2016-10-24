@@ -12,7 +12,7 @@ title: About
 
 <div id="past">
 <h1>Current</h1>
-<p>I teach and develop machine learning course materials for an 8-week Data Science Fellowship and other educational programs at [the Data Incubator](http://thedataincubator.com)</p>
+<p>I teach and develop machine learning course materials for an 8-week Data Science Fellowship and other educational programs at <a href="http://thedataincubator.com" target="_blank">the Data Incubator</a>.</p>
 
 </div>
 
