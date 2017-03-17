@@ -6,7 +6,8 @@ categories:
 ---
 
 If you are looking for it, here is one framework to distinguish statistical
-modeling from machine learning, and it is based on the desire for **interpretability**.
+modeling from machine learning. It hinges on whether or not you are interested
+in the **interpretability** of your model.
 
 In summary, if you want to understand a model, and value interpretability, you
 are interested in model inference, and therefore are performing **statistical
