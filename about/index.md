@@ -5,31 +5,81 @@ title: About
 
 ### Jump to:
 * [Current](./#current)
+* [Past work](./#past-work)
 * [Past research](./#past)
 * [Teaching experience](./#taught)
 * [Education](./#educ)
 * [Skills + toolbox](./#skills)
 
-<div id="past">
-<h1>Current</h1>
-<p>I teach and develop machine learning course materials for an 8-week Data Science Fellowship and other educational programs at <a href="http://thedataincubator.com" target="_blank">the Data Incubator</a>.</p>
 
+
+<div id="current">
+    <h1>Current</h1>
+    <p>
+	Our newly-formed, small, entrepreneurial team at Genentech (San Francisco) uses machine learning and visualizations to help other teams gain new insights from their data.
+    </p>
+</div>
+
+
+<div id="past-work">
+<h1>Past Work</h1>
+<p>
+    In the past, I taught and developed machine learning course materials for
+    an 8-week Data Science Fellowship and other educational programs at <a href="http://thedataincubator.com" target="_blank">the Data Incubator</a>.
+</p>
+<p>
+   I also led a small team at <a href="http://methodofmoments.io" target="_blank">Method of Moments</a> which
+   provided statistical analysis and consulting services to medical and other
+   researchers in Longwood Medical Area, Boston, a top research hub.
+</p>
 </div>
 
 <div id="past">
 <h1>Past Research</h1>
 
-<p>I have a background in applied statistics, specifically in the field of public health. Until March 2015, I applied statistical methods to the design and analysis of clinical trials at <a href="http://www.hsph.harvard.edu/cbar" target="_blank">Harvard School of Public Health</a>.</p>
-<p>There, I worked with Dr. Heather Ribaudo, Director of Biostatistics and Programming, on the design of <a href="http://reprievetrial.org" target="_blank">REPRIEVE, the largest study ever in our network</a>, which included simulated power analysis (in SAS) of Cox survival models in the presence of "competing risks." Currently, we are developing statistical and data monitoring plans with our collaborators at Massachusetts General Hospital and elsewhere.  At the same time, I am involved in three other longitudinal studies; I combine and analyze datasets to produce graphical summaries and reports for our investigators and the public at large. </p>
+<p>
+    I have a background in applied statistics, specifically in the field of
+    public health. Until March 2015, I applied statistical methods to the
+    design and analysis of clinical trials at <a href="http://www.hsph.harvard.edu/cbar" target="_blank">Harvard School of Public Health</a>.
+</p>
+<p>
+    There, I worked with Dr. Heather Ribaudo, Director of Biostatistics and
+    Programming, on the design of <a href="http://reprievetrial.org" target="_blank">REPRIEVE, the largest study ever in our network</a>,
+    which included simulated power analysis (in SAS) of Cox survival models in
+    the presence of "competing risks." Currently, we are developing statistical
+    and data monitoring plans with our collaborators at Massachusetts General
+    Hospital and elsewhere.  At the same time, I am involved in three other
+    longitudinal studies; I combine and analyze datasets to produce graphical
+    summaries and reports for our investigators and the public at large.
+</p>
 
-<p>While doing my Masters at the University of Michigan, I modeled the hormonal response of cortisol using functional GLM (in R) with <a href="http://www.sph.umich.edu/iscr/faculty/profile.cfm?uniqname=brisa">Prof. Brisa Sánchez</a>, where instead of using a summary statistic such as slope of response, or area under the curve, we wanted to incorporate the entire functional form of that hormone in our analyses. In addition, I compared various Phase I clinical trial dose-escalation methods (a "very small data" problem) by running intensive simulations (also in R) with <a href="http://www.sph.umich.edu/iscr/faculty/profile.cfm?uniqname=tombraun">Prof. Tom Braun</a>.</p>
+<p>
+    While doing my Masters at the University of Michigan, I modeled the
+    hormonal response of Cortisol using functional GLM (in R) with <a href="http://www.sph.umich.edu/iscr/faculty/profile.cfm?uniqname=brisa">Prof. Brisa Sánchez</a>,
+    where instead of using a summary statistic such as slope of response, or
+    area under the curve, we wanted to incorporate the entire functional form
+    of that hormone in our analyses. In addition, I compared various Phase I
+    clinical trial dose-escalation methods (a "very small data" problem) by
+    running intensive simulations (also in R) with <a href="http://www.sph.umich.edu/iscr/faculty/profile.cfm?uniqname=tombraun">Prof. Tom Braun</a>.
+</p>
 </div>
 
 <div id="taught">
 <h1>Teaching Experience</h1>
-<p>I currently teach and develop machine learning course materials at the Data Incubator, for our fellowship (PhDs) and corporate programs.</p>
+<p>
+    At The Data Incubator, I developed machine learning course materials for
+    our fellowship (PhDs) and corporate programs. Two highlights:
 
-<p>In graduate school (University of Michigan), for the following courses, I taught section (lab), held office hours, graded papers, and directed review sessions, and sometimes developed course materials and taught lecture.</p>
+    * I wrote a teaching module on anomaly detection using Isolation Forests and One-class SVMs [Python]
+    * I taught 3-day machine learning classes to two Fortune 100 analytics teams [R, Python]
+
+</p>
+
+<p>
+    In graduate school (University of Michigan), for the following courses, I
+    taught section (lab), held office hours, graded papers, and directed review
+    sessions, and sometimes developed course materials and taught lecture.
+</p>
 
 <h3>Biostatistics 503: Introduction to Biostatistics</h3>
 
