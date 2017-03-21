@@ -5,23 +5,23 @@ title: About
 
 ### Jump to:
 * [Current](./#current)
-* [Past work](./#past-work)
-* [Past research](./#past)
+* [Past work](./#work)
+* [Past research](./#research)
 * [Teaching experience](./#taught)
 * [Education](./#educ)
 * [Skills + toolbox](./#skills)
 
-
-
 <div id="current">
     <h1>Current</h1>
     <p>
-	Our newly-formed, small, entrepreneurial team at Genentech (San Francisco) uses machine learning and visualizations to help other teams gain new insights from their data.
+	Our newly-formed, small, entrepreneurial team at Genentech (San
+	Francisco) uses machine learning and visualizations to help other teams
+	gain new insights from their data.
     </p>
 </div>
 
 
-<div id="past-work">
+<div id="work">
 <h1>Past Work</h1>
 <p>
     In the past, I taught and developed machine learning course materials for
@@ -34,7 +34,7 @@ title: About
 </p>
 </div>
 
-<div id="past">
+<div id="research">
 <h1>Past Research</h1>
 
 <p>
@@ -69,11 +69,10 @@ title: About
 <p>
     At The Data Incubator, I developed machine learning course materials for
     our fellowship (PhDs) and corporate programs. Two highlights:
+</p>
 
     * I wrote a teaching module on anomaly detection using Isolation Forests and One-class SVMs [Python]
     * I taught 3-day machine learning classes to two Fortune 100 analytics teams [R, Python]
-
-</p>
 
 <p>
     In graduate school (University of Michigan), for the following courses, I
@@ -124,9 +123,6 @@ Besides <b>courses</b> in my major/minors, I completed all pre-med requirements,
 
 <p>I started coding in HTML in seventh grade, and haven't looked back (ask me for a keyboard shortcut!)</p>
 
-<p><b>Venti:</b> R, SAS, Emacs(+ESS) <br />
-<b>Grande:</b> Python, SQL, Unix, git, Vi, SPSS, HTML/CSS <br />
+<p><b>Venti:</b> R, Emacs(+ESS) <br />
+<b>Grande:</b> Python, scikit-learn, SQL, Unix, git, Tableau, Vi, SPSS, SAS, HTML/CSS <br />
 <b>Tall:</b> C++, Spark, Map-reduce, Stata, D3, Lisp
-
-
-
