@@ -70,9 +70,8 @@ title: About
     At The Data Incubator, I developed machine learning course materials for
     our fellowship (PhDs) and corporate programs. Two highlights:
 </p>
-
-    * I wrote a teaching module on anomaly detection using Isolation Forests and One-class SVMs [Python]
-    * I taught 3-day machine learning classes to two Fortune 100 analytics teams [R, Python]
+<li>I wrote a teaching module on anomaly detection using Isolation Forests and One-class SVMs [Python]</li>
+<li>I taught 3-day machine learning classes to two Fortune 100 analytics teams [R, Python]</li>
 
 <p>
     In graduate school (University of Michigan), for the following courses, I
