@@ -6,39 +6,5 @@
             </p>
     </footer>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="{{ site.url }}/js/balance-text-master/jquery.balancetext.min.js"></script>
-    <script>
-        function balance() {
-            $('h1,h2,h3').each( function() {
-                var $link = $(this).find('a');
-                if( $link.size() ) {
-                    $link.balanceText();
-                } else {
-                    $(this).balanceText();
-                }
-            });
-        }
-        $(window).on('load', function() {
-            balance();
-        });
-        var resizeTimer;
-        $(window).on('resize', function() {
-            resizeTimer = setTimeout( function() {
-                balance();
-            }, 100); 
-        });
-        $('.site-nav .nav-icon').on('click', function() {
-            $('.site-nav').toggleClass('site-nav--open');
-        });
-
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-869896-27', 'auto');
-        ga('send', 'pageview');
-
-    </script>
 </body>
 </html>
