@@ -4,7 +4,7 @@ title: 'Humans still control the robots'
 description: ""
 categories: 
 ---
-What a fun and novel event has just occurred in the history of mankind/robots:
+What a fun and novel event has just occurred in the history of mankind/robots.
 
 An ad guy from Big Company speaks something on TV and thereby activates devices
 in thousands of random people's homes.
