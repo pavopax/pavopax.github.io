@@ -24,6 +24,8 @@ doesn't follow the instructions of random dude speaking at it from the TV.
 In summary, it's still humans controlling the robots, not (yet?) the other way
 around.
 
+The full story is [on BBC here](http://www.bbc.com/news/technology-39589013).
+
 --
 
 Did I beat Chris Matyszczyk to the spot about this? Granted, he would write this 100x more wittily. 
