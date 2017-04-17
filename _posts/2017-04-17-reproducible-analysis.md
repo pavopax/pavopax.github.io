@@ -14,7 +14,7 @@ Reproducible:
 
 Non-reproducible:
 
-- Drag and drop interfaces
+- Drag and drop interfaces (at least very hard to maintain as reproducible)
 - Naked program files
     - That is, R, SAS, Python, or other program files, without accompanying shell script or Makefile to delineate program run order
 
