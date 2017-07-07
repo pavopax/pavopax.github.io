@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Lessons in data science/machine learning (mostly not taught in school'
+title: 'Lessons in data science/machine learning (mostly not taught in school)'
 description: ""
 categories: 
 ---
