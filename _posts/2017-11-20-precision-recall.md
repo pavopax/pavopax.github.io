@@ -9,14 +9,16 @@ Plus sensitivity, specificity, false positive rate, AUC, etc
 
 <img src="/img/blog/precision-recall.jpg" alt="Precision Recall" width="360">
 
-Precision is "how useful the search results are", and recall is "how complete the results are".
+# Overview
 
-Recall == sensitivity (for "positives")
-
-Specificity = same, but for negatives
-
+Precision is "how useful the search results are", and recall is "how complete
+the results are".
 
 # Details
+
+Recall == sensitivity == True Positive Rate (for "positives")
+
+Specificity = same, but for negatives. True Negative Rate.
 
 "In simple terms, high precision means that an algorithm returned substantially
 more relevant results than irrelevant ones, while high recall means that an
@@ -44,11 +46,17 @@ AUC for PR curve (precision-recall)
 TPR on y, FPR on x
 
 the following are the two sides of the main plot above
+
 	TPR = TP / (TP + FN)
 	FPR = FP / (FP + TN)
 
+
 - TPR = recall = sensitivity
 - FPR  = 1 - specificity
+
+# More
+
+PPV == Precision
 
 # References
 
