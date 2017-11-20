@@ -1,26 +1,29 @@
 ---
 layout: post
-title: 'Precision-recall cheat sheet
+title: 'Precision-recall cheat sheet'
 description: ""
 categories: 
 ---
 
 Plus sensitivity, specificity, false positive rate, AUC, etc
 
-![Precision Recall](/img/blog/precision-recall.jpg)
+<img src="/img/blog/precision-recall.jpg" alt="Precision Recall" width="360">
 
 Precision is "how useful the search results are", and recall is "how complete the results are".
 
-the following are the two sides of the main plot above
-	TPR = TP / (TP+FN)
-	FPR = FP / (FP + TN)
+Recall == sensitivity (for "positives")
 
-> In simple terms, high precision means that an algorithm returned
-> substantially more relevant results than irrelevant ones, while high recall
-> means that an algorithm returned most of the relevant results.
+Specificity = same, but for negatives
 
-> Precision can be seen as a measure of exactness or quality, whereas recall is
-> a measure of completeness or quantity.
+
+# Details
+
+"In simple terms, high precision means that an algorithm returned substantially
+more relevant results than irrelevant ones, while high recall means that an
+algorithm returned most of the relevant results."
+
+"Precision can be seen as a measure of exactness or quality, whereas recall is
+a measure of completeness or quantity."
 
 # There are two curves
 
@@ -31,16 +34,18 @@ AUC for ROC curve
 - The more popular, well-known one
 - TPR vs FPR
 
-AUC for PR curve (precision-recall
+AUC for PR curve (precision-recall)
 
 - prefereed in the case of imbalanced outcome
 - Precision vs recall
 
 ## AUC curve
 
-TPR vs FPR
-
 TPR on y, FPR on x
+
+the following are the two sides of the main plot above
+	TPR = TP / (TP + FN)
+	FPR = FP / (FP + TN)
 
 - TPR = recall = sensitivity
 - FPR  = 1 - specificity
