@@ -11,12 +11,9 @@ title: About
 * [Education](./#educ)
 * [Skills + toolbox](./#skills)
 
-<div id="current">
-    <h1>Current</h1>
-    <p>
-	Our newly-formed, small, entrepreneurial team at Genentech (San
-	Francisco) uses machine learning and visualizations to help other teams
-	gain new insights from their data.
+<div id="current"> <h1>Current</h1>
+	<p> Our newly-formed entrepreneurial team at Genentech (San Francisco) uses machine learning and
+    visualizations to help scientists understand and solve cancer.
     </p>
 </div>
 
