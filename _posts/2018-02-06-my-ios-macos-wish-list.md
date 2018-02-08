@@ -18,7 +18,11 @@ Camera: improve autofocus with Live Photo turned on (default). When I need to
 take a pic ASAP, the pics come out blurry (many shots were ruined!). So I
 turned off Live Photo by default.
 
-Calendar: fix bugs when clicking events from Mail, etc
+Calendar: fix bugs when clicking events from Mail, etc. Fix bug in duplicate
+notifications (I close it and it immediately pops up again for a second once
+more). Make it so alerts in Calendar for Google Calendar events are easy to
+change and propagate without errors to the master calendar (currently lots of
+pain)
 
 Messages: fix bugs with “hide alerts” which don’t work in certain cases (I
 think an iCloud issue. Specifically, contacts sync)
