@@ -7,8 +7,6 @@ categories:
 
 > Great design comes from great designers.
 
-- Fred Brooks
-
 Below are more quotes and ideas from Fred Brooks, of *The Mythical Man-Month*
 fame, who is well-respected in [Silicon Valley engineer
 culture](https://www.palantir.com/engineering-culture/).
@@ -27,7 +25,7 @@ culture](https://www.palantir.com/engineering-culture/).
     a simple one
   * develop ways to grow great designers
 
-## How to grow great designers?
+# How to grow great designers?
 
 * Systematically identify top designers as early as possible. The best are
   often not the most experienced.
