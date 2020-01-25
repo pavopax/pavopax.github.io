@@ -1,1 +1,32 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="og:site_name" content="Paul Paczuski"/><link rel="canonical" href="https://your-website-url.com"/><meta name="twitter:url" content="https://your-website-url.com"/><meta name="og:url" content="https://your-website-url.com"/><title>under construction | Paul Paczuski</title><meta name="twitter:title" content="under construction | Paul Paczuski"/><meta name="og:title" content="under construction | Paul Paczuski"/><meta name="description" content="Can machine learning help solve cancer?"/><meta name="twitter:description" content="Can machine learning help solve cancer?"/><meta name="og:description" content="Can machine learning help solve cancer?"/><meta name="twitter:card" content="summary"/><link rel="stylesheet" href="/styles.css" type="text/css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><link rel="shortcut icon" href="/images/favicon.png" type="image/png"/><link rel="alternate" href="/feed.rss" type="application/rss+xml" title="Subscribe to Paul Paczuski"/></head><body><header><div class="wrapper"><a class="site-name" href="/">Paul Paczuski</a></div></header><div class="wrapper"><h1>under construction</h1><p class="description">Can machine learning help solve cancer?</p><h2>Latest content</h2><ul class="item-list"><li><article><h1><a href="/posts/first-post">My first post</a></h1><ul class="tag-list"><li><a href="/tags/first">first</a></li><li><a href="/tags/article">article</a></li></ul><p>A description of my first post.</p></article></li></ul></div><footer><p>Generated using <a href="https://github.com/johnsundell/publish">Publish</a></p><p><a href="/feed.rss">RSS feed</a></p></footer></body></html>
+---
+layout: default
+---
+
+<div class="outer">
+    <div class="inner">
+
+      <div class="about-box">
+	<img src="/img/paczuski.JPG" alt="Paul" class="about-avatar-small"">
+        <p class="small">
+I like to work at the intersection of data science and design thinking. <br><a href="http://twitter.com/pavopax/">Twitter</a> &bullet; <a href="https://github.com/pavopax">GitHub</a> &bullet; <a href="http://stackoverflow.com/users/3217870/pavopax">StackOverflow</a> &bullet; </a><a href="https://www.linkedin.com/in/paczuski">LinkedIn</a>
+	</p>
+        </div>
+        <hr>
+        <ul class="post-list">
+            {% for post in site.posts %}
+            <li>
+                <!--<span class="meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+                <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                {% if post.custom_excerpt %}
+                    <p class="excerpt">{{ post.custom_excerpt | strip_html }} <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+                {% else %}
+                    <p class="excerpt">{{ post.excerpt | strip_html }} <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
+                {% endif %}
+                {% if post.excerpt_image %}
+                    <img src="{{ site.uploadsurl }}{{ post.excerpt_image }}"{% if post.excerpt_image_width %} width="{{ post.excerpt_image_width }}"{% endif %}{% if post.excerpt_image_height %} height="{{ post.excerpt_image_height }}"{% endif %}>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

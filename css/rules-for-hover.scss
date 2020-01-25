@@ -1,0 +1,648 @@
+---
+# Stupid front matter
+---
+@import "normalize.scss";
+@import "bourbon-master/dist/_bourbon";
+
+/*
+    Legend 
+    ===========================
+*/
+
+/* Resets */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Variables */
+$color-accent: #e9596f;
+$color-complementary: #1e2b3a;
+
+/* Main elmenets */
+html {
+    background: #EDEDED;
+}
+body {
+    margin: auto;
+    padding-top: 80px;
+    font: 18px/1.7 "courier", sans-serif;
+    color: #222;
+    @media screen and (max-width: 600px) {
+        font-size: 18px;
+    }
+}
+
+/* Layout */
+.inner {
+    margin: auto;
+    width: 88%;
+    max-width: 62em;
+    @media screen and (max-width: 1000px) {
+        max-width: 22em;
+    }
+}
+.two-cols {
+    overflow: hidden;
+    margin-top: 1em;
+    &__col {
+        float: left;
+        width: 49.25%;
+        &:nth-of-type(1) {
+            margin-right: 1.5%;
+        }
+        @media screen and (max-width: 1000px) {
+            float: none;
+            margin: 0;
+            width: 100%;
+        }
+    }
+}
+
+.three-cols {
+    overflow: hidden;
+    clear: both;
+    &__col {
+        float: left;
+        margin-right: 2%;
+        width: 32%;
+        &:last-of-type {
+            margin-right: 0;
+        }
+        @media screen and (max-width: 1000px) {
+            position: relative;
+            float: none;
+            margin: 0;
+            width: auto;
+        }
+    }
+}
+
+.demo-list {
+    li {
+        background: #fff;
+        margin-bottom: .75em;
+        padding: 0 1.5em 1em;
+        p {
+            margin-bottom: .5rem;
+        }
+        .demo {
+            overflow: hidden;
+            margin: 0 -1.5em;
+        }
+    }
+}
+
+/* Typography */
+h1, .h1 {
+    float: left;
+    margin: 0 0 1rem -.075em;
+    font-family: ff-market-web, sans-serif;
+    font-size: 9em;
+    text-transform: none;
+    line-height: .8;
+    font-weight: normal;
+    letter-spacing: -5px;
+    @media screen and (max-width: 600px) {
+        font-size: 3em;
+    }
+}
+h2, .h2 {
+    margin: 2rem 0 1rem;
+    font-family: Signika, sans-serif;
+    font-family: 'Crete Round', sans-serif;
+    font-family: 'Source Code Pro', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+h3, .h3 {
+    @extend .h2;
+    font-size: 1em;
+}
+p {
+    margin: 0 0 1rem;
+}
+.author {
+    margin-top: 1.5rem;
+    @extend .h3;
+    float: right;
+    svg {
+        margin-right: .35em;
+        vertical-align: middle;
+        position: relative;
+        top: -2px;
+    }
+}
+ul {
+    padding: 0;
+    li {
+        list-style-type: none;
+    }
+}
+.dd {
+    margin-right: .1em;
+    font-family: ff-market-web, sans-serif;
+    font-size: 1.5em;
+    line-height: .2;
+    vertical-align: middle;
+    border-bottom: 3px solid;
+}
+.circle-digit {
+    display: none;
+}
+.feedback {
+    margin-top: 1rem;
+    font-size: 4em;
+    font-family: ff-market-web, sans-serif;
+    text-align: center;
+    a {
+        color: inherit;
+    }
+}
+
+/* Other */
+
+/* Demo animations */
+@include keyframes( move-to-center ) {
+    0% {
+        top: 75%;
+        left: 110%;
+    } 20% {
+        top: 50%;
+        left: 50%;
+    } 100% {
+        top: 50%;
+        left: 50%;
+    }
+}
+@include keyframes( move-to-center-right ) {
+    0% {
+        top: 75%;
+        left: 110%;
+    } 20% {
+        top: 50%;
+        left: 65%;
+    } 100% {
+        top: 50%;
+        left: 65%;
+    }
+}
+@include keyframes( move-along-left ) {
+    0% {
+        top: -5%;
+        left: 15%;
+    } 30% {
+        top: 50%;
+        left: 10%;
+    } 100% {
+        top: 50%;
+        left: 10%;
+    }
+}
+@include keyframes( audio ) {
+    0% {
+        @include transform( scaleY(0) );
+    } 40% {
+        @include transform( scaleY(0) );
+    } 40.5% {
+        @include transform( scaleY(.8) );
+    } 50% {
+        @include transform( scaleY(.3) );
+    } 50.5% {
+        @include transform( scaleY(.9) );
+    } 60% {
+        @include transform( scaleY(.3) );
+    } 60.5% {
+        @include transform( scaleY(.8) );
+    } 70% {
+        @include transform( scaleY(.1) );
+    } 70.5% {
+        @include transform( scaleY(.7) );
+    } 80% {
+        @include transform( scaleY(.2) );
+    } 80.5% {
+        @include transform( scaleY(.6) );
+    } 90% {
+        @include transform( scaleY(.1) );
+    } 90.5% {
+        @include transform( scaleY(.7) );
+    } 100% {
+        @include transform( scaleY(.2) );
+    }
+}
+
+
+@include keyframes( demo-comp-text) {
+    0% {
+        top: 90%;
+    } 10% {
+        top: 90%;
+    } 20% {
+        top: 40%;
+    } 100% {
+        top: 40%;
+    }
+}
+@include keyframes( demo-comp-ph-copy ) {
+    0% {
+        opacity: .2;
+    } 10% {
+        opacity: .2;
+    } 20% {
+        opacity: 1;
+    } 100% {
+        opacity: 1;
+    }
+}
+@include keyframes( demo-style-button ) {
+    0% {
+        background: white;
+    } 10% {
+        background: white;
+    } 20% {
+        background: #eee;
+    } 100% {
+        background: #eee;
+    }
+}
+@include keyframes( move-icons ) {
+    0% {
+        @include transform(translate3d(0,54px,0));
+    } 30% {
+        @include transform(translate3d(0,0,0));
+    } 100% {
+        @include transform(translate3d(0,0,0));
+    }
+}
+@include keyframes( demo-tooltip ) {
+    0% {
+        @include transform( scale(0) );
+        opacity: 0;
+    } 22% {
+        @include transform( scale(0) );
+        opacity: 0;
+    } 28% {
+        @include transform( scale(1) );
+        opacity: 1;
+    } 100% {
+        @include transform( scale(1) );
+        opacity: 1;
+    }
+}
+@include keyframes( demo-pagescroll ) {
+    0% {
+        @include transform( translate3d(0,0px,0) );
+    } 60% {
+        @include transform( translate3d(0,-86px,0) );
+    } 100% {
+        @include transform( translate3d(0,-86px,0) );
+    }
+}
+@include keyframes( state-cursor ) {
+    0% {
+        @include transform( translate3d(0,0,0) );
+    } 40% {
+        @include transform( translate3d(-10px,179px,0) );
+    } 50% {
+        @include transform( translate3d(-10px,179px,0) scale(0) );
+    } 100% {
+        @include transform( translate3d(-10px,179px,0) scale(0) );
+    }
+}
+@include keyframes( state-disabled-cursor ) {
+    0% {
+        @include transform( translate3d(0,0,0) scale(0) );
+    } 40% {
+        @include transform( translate3d(-10px,179px,0) scale(0) );
+    } 45% {
+        @include transform( translate3d(-10px,179px,0) scale(1) );
+    } 100% {
+        @include transform( translate3d(-10px,179px,0) scale(1) );
+    }
+}
+@include keyframes( demo-expandable ) {
+    0% {
+        height: 80px;
+    } 35% {
+        height: 80px;
+    } 40% {
+        height: 160px;
+    } 100% {
+        height: 160px;
+    }
+}
+
+/* Demos */
+.demo {
+    position: relative; 
+    height: 240px;
+    background: #ddd;
+    &__cursor {
+        position: absolute;
+        margin: -8px 0 0 -8px;
+        width: 16px;
+        height: 16px;
+        border-radius: 100%;
+        background-color: #222;
+        z-index: 100;
+    }
+}
+%demo-shadow {
+    box-shadow: none;
+}
+.ph-copy {
+    overflow: hidden;
+    span {
+        display: block;
+        float: left;
+        margin: 0 3px 5px 0;
+        height: 5px;
+        width: 5px;
+        background: #aaa;
+    }
+    &:nth-of-type(1) {
+        span {
+            margin-bottom: 8px;
+            background: #666;
+            &:nth-child(1) { width: 10px; }
+            &:nth-child(2) { width: 14px; }
+            &:nth-child(3) { width: 7px; }
+            &:nth-child(4) { width: 8px; }
+            &:nth-child(5) { width: 12px; }
+            &:nth-child(6) { width: 9px; }
+        }
+    }
+    span {
+        &:nth-child(8n) { width: 12px; }
+        &:nth-child(8n-1) { width: 11px; }
+        &:nth-child(8n-2) { width: 8px; }
+        &:nth-child(8n-3) { width: 14px; }
+        &:nth-child(8n-4) { width: 6px; }
+        &:nth-child(8n-5) { width: 10px; }
+        &:nth-child(8n-6) { width: 8px; }
+        &:nth-child(8n-7) { width: 12px; }
+    }
+}
+
+/* Demo: complementary info */
+.demo-comp {
+    .demo {
+        &__cursor {
+            @include animation( move-to-center-right 4s infinite both $ease-out-quad );
+        }
+        &__object {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            width: 50%;
+            height: 80%;
+            background: #fff;
+            border-radius: 1px;
+            overflow: hidden;
+            @extend %demo-shadow;
+            @include box-sizing(border-box);
+            &__text {
+                position: absolute;
+                top: 90%;
+                left: 20px;
+                right: 20px;
+                @include animation( demo-comp-text 4s both infinite $ease-in-out-back );
+                .ph-copy:nth-child(2) {
+                    @include animation( demo-comp-ph-copy 4s both infinite linear );
+                }
+            }
+        }
+    }
+}
+
+/* Demo: change style */
+.demo-style {
+    .demo {
+        &__cursor {
+            @include animation( move-to-center 4s -3s infinite both $ease-out-quad );
+        }
+        &__button {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 50%;
+            height: 0;
+            padding: 35px 0 30px;
+            margin: auto;
+            background: #fff;
+            border-radius: 2px;
+            @extend %demo-shadow;
+            @include animation( demo-style-button 4s -3s infinite both $ease-out-quad );
+        }
+    }
+}
+
+/* Demo: tooltip */
+.demo-tooltip {
+    .demo {
+        &__cursor {
+            @include animation( move-along-left 4s -4s infinite both $ease-out-quad );
+        }
+        &__icons {
+            position: absolute;
+            top: -92px;
+            left: 0;
+            @include animation( move-icons 4s -4s infinite both $ease-out-quad );
+            &__icon {
+                margin: 0 0 2px;
+                width: 56px;
+                height: 56px;
+                background: white;
+                border-radius: 1px;
+                @extend %demo-shadow;
+            }
+        }
+        &__tooltip {
+            position: absolute;
+            padding: 10px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            left: 75px;
+            height: 5px;
+            background: #fff;
+            border-radius: 3px;
+            @extend %demo-shadow;
+            @include animation( demo-tooltip 4s -4s infinite both $ease-out-back);
+            @include transform-origin( 0 50% );
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: -3px;
+                top: 9px;
+                width: 7px;
+                height: 7px;
+                background: #fff;
+                @include transform( rotate(-45deg) );
+            }
+        }
+    }
+}
+
+/* Demo: page flow */
+.demo-pageflow {
+    .demo {
+        &__cursor {
+            top: 28%;
+            left: 64%;
+        }
+        &__page {
+            margin: 8px auto;
+            max-width: 35%;
+            @include animation( demo-pagescroll 4s infinite both ease-in-out);
+        }
+        &__expandable {
+            margin: 8px 0 12px;
+            height: 80px;
+            background: #fff;
+            @include animation( demo-expandable 4s infinite both $ease-out-quad);
+        }
+    }
+}
+
+/* Demo: disabled */
+.demo-state {
+    .demo {
+        &__cursor {
+            top: -10%;
+            left: 68%;
+            @include animation( state-cursor 4s -5s infinite both $ease-out-quad);
+        }
+        &__disabled-cursor {
+            position: absolute;
+            width: 28px;
+            height: 28px;
+            margin-top: -14px;
+            margin-left: -14px;
+            top: -10%;
+            left: 68%;
+            background: url(../img/sprite@2x.png) no-repeat 0 top;
+            background-size: auto 28px;
+            @include animation( state-disabled-cursor 4s -5s infinite both $ease-out-back);
+        }
+        &__rbutton {
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 120px;
+            margin-top: -20px;
+            width: 180px;
+            height: 40px;
+            border-radius: 100px;
+            background: #fff;
+            &:nth-of-type(1) {
+                @include transform( translate3d(0,-120%,0) );
+            }
+            &:nth-of-type(3) {
+                @include transform( translate3d(0,120%,0) );
+                background: #aaa;
+            }
+        }
+    }
+}
+
+/* Demo: audio */ 
+.demo-audio {
+    .demo {
+        &__cursor {
+            top: 28%;
+            left: 64%;
+            @include animation( demo-pagescroll 4s infinite both ease-in-out);
+        }
+        &__page {
+            margin: 56px auto 0;
+            width: 258px;
+            .ph-copy {
+                width: 48%;
+                float: left;
+                &:nth-of-type(1) {
+                    display: none;
+                }
+                &:nth-of-type(2) {
+                    margin-right: 4%;
+                }
+            }
+        }
+        &__player {
+            margin-bottom: 10px;
+            height: 66px;
+            padding: 4px 0 0 4px;
+            background: #fff;
+            &__bar {
+                margin-right: 4px;
+                float: left;
+                height: 62px;
+                width: 6px;
+                background: #444;
+                @include animation( audio 4s infinite both $ease-in-quad);
+                @include transform-origin(50% 100%);
+                &:last-of-type {
+                    margin-right: 0;
+                }
+                &:nth-of-type(1) {
+                    height: 32px;
+                    margin-top: 30px;
+                }
+                &:nth-of-type(2) {
+                    height: 42px;
+                    margin-top: 20px;
+                }
+                &:nth-of-type(3) {
+                    height: 48px;
+                    margin-top: 14px;
+                }
+                &:nth-of-type(4) {
+                    height: 44px;
+                    margin-top: 18px;
+                }
+                &:nth-of-type(5) {
+                    height: 36px;
+                    margin-top: 26px;
+                }
+                &:nth-of-type(6) {
+                    height: 38px;
+                    margin-top: 24px;
+                }
+                &:nth-of-type(7) {
+                    height: 42px;
+                    margin-top: 20px;
+                }
+                &:nth-of-type(8) {
+                    height: 38px;
+                    margin-top: 24px;
+                }
+                &:nth-of-type(9) {
+                    height: 36px;
+                    margin-top: 26px;
+                }
+                &:nth-of-type(10) {
+                    height: 32px;
+                    margin-top: 30px;
+                }
+                &:nth-of-type(11) {
+                    height: 34px;
+                    margin-top: 28px;
+                }
+                &:nth-of-type(12) {
+                    height: 38px;
+                    margin-top: 24px;
+                }
+            }
+        }
+    }
+}

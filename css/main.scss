@@ -1,0 +1,368 @@
+---
+# Front matter
+---
+@import "normalize.scss";
+@import "bourbon-master/dist/_bourbon";
+
+/*
+    Legend 
+    ===========================
+    0. Resets
+    1. Variables
+    2. Main elements
+    3. Layout components
+    4. Typography
+    5. Header
+    6. Footer
+    7. Images, video and icons
+    8. Specials
+*/
+
+/* Resets */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Variables */
+/* $color-accent: rgb(231, 88, 88); */
+$color-accent: #1964c1 ;
+
+/* Main elmenets */
+html {
+    background: #ddd;
+}
+body {
+    margin: auto;
+    font: 23px/1.5 "PT serif"; 
+    color: #222;
+    background: #f7f7f7;
+    @media screen and (max-width: 600px) {
+        font-size: 21px;
+    }
+}
+
+/* Layout components */
+.outer {
+    padding: 1.5rem 0;
+    @media screen and (max-width: 600px) {
+        padding: .75rem 0;
+    }
+}
+.inner {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 32em;
+}
+hr {
+    margin: 2rem 0;
+    width: 15%;
+    height: 2px;
+    height: 2px;
+    background: #ddd;
+    border: none;
+}
+
+/* Typography */
+h1,h2,h3,h4,h5,ul,ol {
+    margin: 1rem 0;
+    font-weight: inherit;
+}
+p {
+    margin: 1.5rem 0;
+}
+h1,h2,h3 {
+    a {
+        color: inherit;
+        &:after {
+            content: " \21AC";
+            color: #ddd; 
+            @include transition( color .15s linear );
+        }
+        &:hover {
+            &:after {
+                color: inherit;
+            }
+        }
+    }
+}
+h1, .h1 {
+    font-size: 1.75em;
+    font-family: sans-serif;
+    line-height: 1.15;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: -1px;
+    color: $color-accent;
+    @media screen and (max-width: 600px) {
+        font-size: 2em;
+    }
+}
+h2, .h2 {
+    font-size: 1.75em;
+    font-family: sans-serif;
+    line-height: 1.25;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: -1px;
+    color: $color-accent;
+    @media screen and (max-width: 600px) {
+        font-size: 1.2em;
+    }
+}
+h3, .h3 {
+    font-size: 1.1em;
+    font-family: inherit;
+    line-height: inherit;
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: none;
+    + p {
+        margin-top: -1rem;
+    }
+}
+a {
+    text-decoration: none;
+    color: #1964c1;
+}
+.small {
+    font-size: .75em;
+}
+.meta {
+    @extend .small;
+    color: #767676;
+}
+.intro {
+    font-size: 1.15em;
+}
+.excerpt {
+//    overflow: hidden;
+//    display: -webkit-box;
+//    -webkit-line-clamp: 4;
+//    -webkit-box-orient: vertical; 
+}
+.in {
+    &:first-line {
+        font-weight: bold;
+    }
+}
+.read-more {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: .95em;
+    &:after {
+        content: " \21AC";
+    }
+}
+pre {
+    padding: 1rem;
+    font-size: .85em;
+    background: #ededed;
+    border-radius: 2px;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+}
+table {
+    th {
+        text-align: left;
+        @extend .h3;
+    }
+}
+
+/* Header */
+.site-header {
+    padding: .5em 0;
+    background: #fff;
+    @include clearfix;
+    a {
+        color: #777;
+    }
+    h1 {
+        font-size: 1em;
+        line-height: inherit;
+        letter-spacing: 0;
+        float: left;
+        a:after {
+            display: none;
+        }
+    }
+}
+.site-nav {
+    font-size: .9em;
+    ul {
+        display: none;
+        padding: 0;
+        list-style-type: none;
+        clear: both;
+        &:nth-of-type(2) { // Twitter for now
+            color: #e75858;
+            a {
+                color: inherit;
+            }
+        }
+    }
+    .nav-icon {
+        margin: 1rem 0;
+        float: right; 
+        opacity: .3;
+        &:hover {
+            opacity: .5;
+        }
+        rect {
+            @include transition( all .5s $ease-in-out-back );
+        }
+    }
+    &--open {
+        ul {
+            display: block;
+        }
+        .nav-icon {
+            opacity: .5;
+            rect {
+                &:nth-of-type(2) {
+                    @include transform( scaleX(0.666) );
+                }
+                &:nth-of-type(3) {
+                    @include transform( scaleX(0.333) );
+                }
+            }
+        }
+    }
+    @media screen and (min-width: 800px) {
+        float: right;
+        .nav-icon {
+            display: none;
+        }
+        ul {
+            display: block;
+            float: left;
+            margin-left: .75em;
+            clear: none;
+        }
+        li {
+            margin-left: .5em;
+            display: inline;
+        }
+    }
+    .twitter-icon {
+        position: relative;
+        top: -2px;
+    }
+}
+
+/* Footer */
+.site-footer {
+    border-top: 1px solid #ddd;
+}
+
+/* Images, video and icons */
+img {
+    border-radius: 1px;
+}
+img, video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+figcaption {
+    @extend .meta;
+}
+.inline-icon {
+    display: inline;
+    vertical-align: middle;
+}
+
+/* Specials */
+.post-list {
+    padding: 0;
+    list-style-type: none;
+    span + h2 {
+        margin-top: 0;
+    }
+    li {
+        &:after {
+            content: "";
+            display: block;
+            margin: 2rem 0;
+            width: 15%;
+            height: 2px;
+            background: #ddd;
+        }
+    }
+}
+.event-list {
+    padding-left: 0;
+    li {
+        list-style-position: inside;
+    }
+    &__date {
+        float: right;
+        @extend .meta;
+    }
+}
+.reading-list {
+    padding-left: 0;
+    li {
+        list-style-type: none;    
+    }
+    &__rating {
+        float: left;
+        width: 6.5em;
+    }
+    &__date {
+        @extend .event-list__date;
+    }
+    @media screen and (max-width: 900px) {
+        li {
+            margin-bottom: 1em;
+        }
+        a {
+            display: block;
+        }
+        &__rating,
+        &__date {
+            float: none;
+        }
+    }
+}
+.post-thumb {
+    display: block;
+    float: right;
+    width: 260px;
+    margin: .75em 0 1.5rem 1rem;
+    @media screen and (max-width: 600px) {
+        float: none;
+        margin: 1rem 0;
+        width: auto;
+    }
+}
+.twitter-cta {
+    padding: .5em;
+    font-size: .85em;
+    font-weight: bold;
+    font-family: sans-serif;
+    background: $color-accent;
+    color: white;
+    border-radius: 3px;
+}
+.about-avatar {
+    margin-left: 1em;
+    margin-bottom: 1em;
+    float: right;
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+}
+.about-avatar-small {
+    @extend .about-avatar;
+    float: left;
+    margin-left: 0;
+    margin-right: 1em;
+    width: 116px;
+}
+.about-avatar,
+.about-avatar-small {
+    @media screen and (max-width: 600px) {
+        width: 100px;
+    }
+}

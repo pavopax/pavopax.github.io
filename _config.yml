@@ -1,0 +1,30 @@
+# Site settings
+title: Paul Paczuski
+email: pavopax@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+   Paul Paczuski
+baseurl: "" # the subpath of your site, e.g. /
+uploadsurl: "https://s3.amazonaws.com/martenbjork.com/media/"
+url: "http://pavopax.com" # the base hostname & protocol for your site
+twitter_username: pavopax
+github_username: pavopax
+
+# Collections
+collections:
+    trips:
+        output: true
+        permalink: /trips/:path/
+
+    reading:
+        output: true
+        permalink: /reading/:path/
+
+    portfolio:
+        output: true
+        permalink: /portfolio/:path/
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:title/
+gems:
+    - jekyll-sitemap
